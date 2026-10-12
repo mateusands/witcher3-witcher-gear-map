@@ -61,7 +61,8 @@ Using **Gwent Players Map** too? Both mods replace the world map, so install the
 ### Gwent Players Map compatibility
 
 The combined file contains one world map with both mods' icons and filters
-(`mods/mod0WitcherGearGwentMap`). Keep both mods installed; their scripts and texts stay
+(`mods/mod0WitcherGearGwentMap`). Since 1.0.2 it matches Gwent Players Map 1.0.7 (both card
+sizes; cards no longer under "Merchants and craftsmen") and still works with 1.0.6. Keep both mods installed; their scripts and texts stay
 separate. The combined folder must load before the other two: its name already sorts first, but
 if your `mods.settings` sets priorities, give it the lowest number. Remove it to go back to
 either standalone map.
@@ -93,6 +94,8 @@ Delete `mods/modWitcherGearMap`, `mods/mod0WitcherGearGwentMap` (if installed),
 
 ## Changelog
 
+- **1.0.2**: updated Gwent Players Map combined file for Gwent Players Map 1.0.7 (both card
+  sizes, cards no longer under "Merchants and craftsmen"). The main mod is unchanged.
 - **1.0.1**: "Show diagrams: Discovered only / All" option (Discovered only by default: markers
   follow your scavenger hunt journal). New Game+: *(Legendary)* in the title for Wolf and
   Manticore NG+ diagrams, and a note for the other schools; the Manticore NG+ diagrams showed

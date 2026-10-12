@@ -95,8 +95,8 @@ Delete `mods/modWitcherGearMap`, `mods/mod0WitcherGearGwentMap` (if installed),
 
 - **1.0.1**: "Show diagrams: Discovered only / All" option (Discovered only by default: markers
   follow your scavenger hunt journal). New Game+: *(Legendary)* in the title for Wolf and
-  Manticore NG+ diagrams, and a note for the other schools; fixed an English name showing for the
-  Manticore NG+ diagram. Debug info also shows learned and hidden counts.
+  Manticore NG+ diagrams, and a note for the other schools; the Manticore NG+ diagrams showed
+  their name in English in every language and now use the game's translated name. Debug info also shows learned and hidden counts.
 - **1.0.0**: first release.
 
 ## AI disclosure

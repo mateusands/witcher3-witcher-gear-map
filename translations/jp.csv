@@ -40,3 +40,8 @@ option_wgm_icon_style;アイコンのスタイル
 preset_value_wgm_plain;色なし
 preset_value_wgm_colour_circle;流派の色と円
 preset_value_wgm_colour;流派の色のみ
+wgm_legendary;レジェンダリー
+wgm_note_ngp_crafted;NG+：作成したアイテムはレジェンダリーになります。
+option_wgm_show_mode;設計図を表示
+preset_value_wgm_show_discovered;発見済みのみ
+preset_value_wgm_show_all;すべて

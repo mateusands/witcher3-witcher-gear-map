@@ -40,3 +40,8 @@ option_wgm_icon_style;아이콘 스타일
 preset_value_wgm_plain;색상 없음
 preset_value_wgm_colour_circle;교단 색상과 원
 preset_value_wgm_colour;교단 색상만
+wgm_legendary;전설
+wgm_note_ngp_crafted;새 게임+: 제작한 아이템은 전설 등급입니다.
+option_wgm_show_mode;도면 표시
+preset_value_wgm_show_discovered;발견한 것만
+preset_value_wgm_show_all;전체

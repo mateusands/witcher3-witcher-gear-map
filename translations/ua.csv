@@ -40,3 +40,8 @@ option_wgm_icon_style;Вигляд піктограми
 preset_value_wgm_plain;Без кольору
 preset_value_wgm_colour_circle;Колір школи з колом
 preset_value_wgm_colour;Колір школи без кола
+wgm_legendary;Легендарний
+wgm_note_ngp_crafted;Нова гра+: створений предмет буде легендарним.
+option_wgm_show_mode;Показувати креслення
+preset_value_wgm_show_discovered;Лише виявлені
+preset_value_wgm_show_all;Усі

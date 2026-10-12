@@ -40,3 +40,8 @@ option_wgm_icon_style;Estilo do ícone
 preset_value_wgm_plain;Sem cor
 preset_value_wgm_colour_circle;Cor da escola com círculo
 preset_value_wgm_colour;Cor da escola sem círculo
+wgm_legendary;Lendário
+wgm_note_ngp_crafted;Novo Jogo+: o item criado sai lendário.
+option_wgm_show_mode;Mostrar diagramas
+preset_value_wgm_show_discovered;Só os descobertos
+preset_value_wgm_show_all;Todos

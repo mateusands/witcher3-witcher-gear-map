@@ -40,3 +40,8 @@ option_wgm_icon_style;图标样式
 preset_value_wgm_plain;无颜色
 preset_value_wgm_colour_circle;学派颜色加圆环
 preset_value_wgm_colour;学派颜色无圆环
+wgm_legendary;传奇
+wgm_note_ngp_crafted;新游戏+：制作出的物品为传奇品质。
+option_wgm_show_mode;显示图纸
+preset_value_wgm_show_discovered;仅已发现
+preset_value_wgm_show_all;全部

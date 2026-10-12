@@ -40,3 +40,8 @@ option_wgm_icon_style;Stile dell’icona
 preset_value_wgm_plain;Senza colore
 preset_value_wgm_colour_circle;Colore della scuola con cerchio
 preset_value_wgm_colour;Colore della scuola senza cerchio
+wgm_legendary;Leggendario
+wgm_note_ngp_crafted;Nuova partita+: l'oggetto creato è leggendario.
+option_wgm_show_mode;Mostra diagrammi
+preset_value_wgm_show_discovered;Solo scoperti
+preset_value_wgm_show_all;Tutti

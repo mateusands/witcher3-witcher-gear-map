@@ -40,3 +40,8 @@ option_wgm_icon_style;Symbolstil
 preset_value_wgm_plain;Ohne Farbe
 preset_value_wgm_colour_circle;Schulfarbe mit Kreis
 preset_value_wgm_colour;Schulfarbe ohne Kreis
+wgm_legendary;Legendär
+wgm_note_ngp_crafted;Neues Spiel+: Der hergestellte Gegenstand ist legendär.
+option_wgm_show_mode;Baupläne anzeigen
+preset_value_wgm_show_discovered;Nur entdeckte
+preset_value_wgm_show_all;Alle

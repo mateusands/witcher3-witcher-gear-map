@@ -40,3 +40,8 @@ option_wgm_icon_style;Styl ikony
 preset_value_wgm_plain;Bez barvy
 preset_value_wgm_colour_circle;Barva školy s kruhem
 preset_value_wgm_colour;Barva školy bez kruhu
+wgm_legendary;Legendární
+wgm_note_ngp_crafted;Nová hra+: vyrobený předmět je legendární.
+option_wgm_show_mode;Zobrazit nákresy
+preset_value_wgm_show_discovered;Jen objevené
+preset_value_wgm_show_all;Všechny

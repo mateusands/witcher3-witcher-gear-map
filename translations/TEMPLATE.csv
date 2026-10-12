@@ -1,6 +1,6 @@
-# Witcher Upgrade Gear Map 1.0.0 - texts to translate. Copy to <lang>.csv (br, de, fr, ru, ...)
+# Witcher Upgrade Gear Map 1.0.1 - texts to translate. Copy to <lang>.csv (br, de, fr, ru, ...)
 # and translate the part after the semicolon. Keep all placeholders ({item}, {version}, {count}, {world}, {school}, {tier}, {piece}). Missing lines stay in English.
-panel_wgm_map;Witcher Upgrade Gear Map 1.0.0
+panel_wgm_map;Witcher Upgrade Gear Map 1.0.1
 map_category_wgm_gear;Witcher Gear
 option_wgm_show_pins;Show gear markers
 option_wgm_hide_obtained;Hide obtained diagrams
@@ -43,6 +43,11 @@ option_wgm_icon_style;Icon style
 preset_value_wgm_plain;No colour
 preset_value_wgm_colour_circle;School colour with circle
 preset_value_wgm_colour;School colour without circle
+wgm_legendary;Legendary
+wgm_note_ngp_crafted;New Game+: the crafted item is Legendary.
+option_wgm_show_mode;Show diagrams
+preset_value_wgm_show_discovered;Discovered only
+preset_value_wgm_show_all;All
 wgm_loc_10;Underwater: dive near the shore to reach the chest.
 wgm_loc_11;Inside the cave; follow it down to the chest.
 wgm_loc_12;Inside the cave; follow it down to the chest.

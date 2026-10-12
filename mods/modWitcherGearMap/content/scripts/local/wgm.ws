@@ -2,7 +2,7 @@
 // Learned diagram state is read from the vanilla player. No mod facts are written.
 function wgm_Version() : string
 {
-    return "1.0.0";
+    return "1.0.1";
 }
 struct wgm_Item
 {
@@ -23,6 +23,7 @@ struct wgm_Pin
     var hintKey : string;
     var hintEnglish : string;
     var items : array< wgm_Item >;
+    var reveals : array< string >;
 }
 class wgm_Data
 {
@@ -42,6 +43,15 @@ class wgm_Data
         pin.hintKey = hintKey;
         pin.hintEnglish = hintEnglish;
         pins.PushBack( pin );
+    }
+    // Journal entries (scavenger hunt objectives or quests) that reveal this marker.
+    public function AddReveal( journalTag : string )
+    {
+        var pin : wgm_Pin;
+        var idx : int = pins.Size() - 1;
+        pin = pins[ idx ];
+        pin.reveals.PushBack( journalTag );
+        pins[ idx ] = pin;
     }
     public function AddItem( schematic : name, ngpSchematic : name, school : int, tier : int, piece : int, english : string, locKey : string )
     {
@@ -115,6 +125,11 @@ function wgm_InitConfig()
         config.SetVarValue( 'wgm_Settings', 'wgm_Debug', "false" );
         changed = true;
     }
+    if ( config.GetVarValue( 'wgm_Settings', 'wgm_ShowMode' ) == "" )
+    {
+        config.SetVarValue( 'wgm_Settings', 'wgm_ShowMode', "0" );
+        changed = true;
+    }
     if ( config.GetVarValue( 'wgm_Settings', 'wgm_School' ) == "" )
     {
         config.SetVarValue( 'wgm_Settings', 'wgm_School', "0" );
@@ -169,6 +184,21 @@ function wgm_SchematicName( item : wgm_Item ) : name
     }
     return item.schematic;
 }
+// The game's name of the diagram that counts (its NG+ version in NG+). Some NG+ versions have no
+// text in the game; then the normal diagram's name, then the English fallback.
+function wgm_DiagramName( player : W3PlayerWitcher, item : wgm_Item ) : string
+{
+    var text : string = GetLocStringByKeyExt( player.inv.GetItemLocalizedNameByName( wgm_SchematicName( item ) ) );
+    if ( StrLen( text ) == 0 || StrBeginsWith( text, "#" ) )
+    {
+        text = GetLocStringByKeyExt( player.inv.GetItemLocalizedNameByName( item.schematic ) );
+    }
+    if ( StrLen( text ) == 0 || StrBeginsWith( text, "#" ) )
+    {
+        text = item.english;
+    }
+    return text;
+}
 function wgm_MarkerTitle( item : wgm_Item ) : string
 {
     var text : string = wgm_Loc( "wgm_marker_title", "{school} School · {tier} {piece}" );
@@ -195,6 +225,40 @@ function wgm_MarkerTitle( item : wgm_Item ) : string
     text = StrReplace( text, "{school}", wgm_Loc( "preset_value_wgm_school_" + item.school, school ) );
     text = StrReplace( text, "{tier}", wgm_Loc( "preset_value_wgm_tier_" + item.tier, tier ) );
     return StrReplace( text, "{piece}", wgm_Loc( "wgm_piece_" + item.piece, piece ) );
+}
+// Discovered: the journal shows one of the marker's scavenger hunt objectives (or its quest) in
+// any state but inactive. A marker without journal entries is always shown.
+function wgm_Discovered( pin : wgm_Pin ) : bool
+{
+    var journal : CWitcherJournalManager;
+    var journalEntry : CJournalBase;
+    var i : int;
+    if ( pin.reveals.Size() == 0 ) { return true; }
+    journal = theGame.GetJournalManager();
+    for ( i = 0; i < pin.reveals.Size(); i += 1 )
+    {
+        journalEntry = journal.GetEntryByString( pin.reveals[ i ] );
+        if ( journalEntry && journal.GetEntryStatus( journalEntry ) != JS_Inactive ) { return true; }
+    }
+    return false;
+}
+function wgm_DebugLearned( data : wgm_Data, known : array< name >, newGamePlus : bool ) : string
+{
+    var i, j, normal, ngp, total : int;
+    var item : wgm_Item;
+    var mode : string = "no";
+    for ( i = 0; i < data.pins.Size(); i += 1 )
+    {
+        for ( j = 0; j < data.pins[ i ].items.Size(); j += 1 )
+        {
+            item = data.pins[ i ].items[ j ];
+            total += 1;
+            if ( known.Contains( item.schematic ) ) { normal += 1; }
+            if ( IsNameValid( item.ngpSchematic ) && known.Contains( item.ngpSchematic ) ) { ngp += 1; }
+        }
+    }
+    if ( newGamePlus ) { mode = "yes"; }
+    return "NG+ " + mode + ", learned " + normal + "/" + total + ", NG+ versions " + ngp + ".";
 }
 function wgm_IconSuffix( school : int ) : string
 {
@@ -231,7 +295,8 @@ function wgm_IconSuffix( school : int ) : string
     var worldPath, worldKey : string;
     var i, j, added, shownItems : int;
     var school, tier, pinSchool : int;
-    var hideObtained, obtained, allObtained, showDebug : bool;
+    var hideObtained, obtained, allObtained, showDebug, newGamePlus, plainInNgp, discoveredOnly, discovered : bool;
+    var hidden : int;
     var pos, playerPos : Vector;
     var obj : CScriptedFlashObject;
     var item : wgm_Item;
@@ -252,6 +317,8 @@ function wgm_IconSuffix( school : int ) : string
     tier = wgm_ConfigInt( 'wgm_Tier' );
     hideObtained = wgm_ConfigBool( 'wgm_HideObtained', false );
     showDebug = wgm_ConfigBool( 'wgm_Debug', false );
+    newGamePlus = FactsQuerySum( "NewGamePlus" ) > 0;
+    discoveredOnly = wgm_ConfigInt( 'wgm_ShowMode' ) == 0;
     playerPos = player.GetWorldPosition();
     for ( i = 0; i < data.pins.Size(); i += 1 )
     {
@@ -259,6 +326,8 @@ function wgm_IconSuffix( school : int ) : string
         description = "";
         shownItems = 0;
         allObtained = true;
+        plainInNgp = false;
+        discovered = !discoveredOnly || wgm_Discovered( data.pins[ i ] );
         for ( j = 0; j < data.pins[ i ].items.Size(); j += 1 )
         {
             item = data.pins[ i ].items[ j ];
@@ -268,20 +337,30 @@ function wgm_IconSuffix( school : int ) : string
             if ( tier != 0 && tier != item.tier ) { continue; }
             obtained = known.Contains( wgm_SchematicName( item ) );
             if ( hideObtained && obtained ) { continue; }
+            // A learned diagram always counts as discovered.
+            if ( !discovered && !obtained ) { hidden += 1; continue; }
             if ( shownItems == 0 )
             {
                 pinTitle = wgm_MarkerTitle( item );
                 pinSchool = item.school;
+                // New Game+: Wolf and Manticore have their own NG+ diagrams (the game's names).
+                if ( newGamePlus && IsNameValid( item.ngpSchematic ) )
+                {
+                    pinTitle += " (" + wgm_Loc( "wgm_legendary", "Legendary" ) + ")";
+                }
             }
+            // The other schools keep the same diagram in NG+; the crafted item is Legendary.
+            plainInNgp = plainInNgp || ( newGamePlus && !IsNameValid( item.ngpSchematic ) );
             allObtained = allObtained && obtained;
             if ( shownItems > 0 ) { description += "<br>"; }
-            itemText = wgm_Loc( player.inv.GetItemLocalizedNameByName( wgm_SchematicName( item ) ), item.english );
+            itemText = wgm_DiagramName( player, item );
             description += itemText + " - ";
             if ( obtained ) { description += wgm_Loc( "wgm_obtained", "Diagram learned." ); }
             else { description += wgm_Loc( "wgm_not_obtained", "Diagram not learned yet." ); }
             shownItems += 1;
         }
         if ( shownItems == 0 ) { continue; }
+        if ( plainInNgp ) { description += "<br>" + wgm_Loc( "wgm_note_ngp_crafted", "New Game+: the crafted item is Legendary." ); }
         description += "<br>" + wgm_Loc( data.pins[ i ].hintKey, data.pins[ i ].hintEnglish );
         pinType = "WitcherGear";
         if ( allObtained ) { pinType = "WitcherGearObtained"; }
@@ -316,6 +395,8 @@ function wgm_IconSuffix( school : int ) : string
         debugText = StrReplace( debugText, "{version}", wgm_Version() );
         debugText = StrReplace( debugText, "{count}", "" + added );
         debugText = StrReplace( debugText, "{world}", worldKey );
+        // Learned diagrams this save knows, normal and NG+ versions (tracked by this mod only).
+        debugText += " " + wgm_DebugLearned( data, known, newGamePlus ) + " Hidden (not discovered): " + hidden + ".";
         marker = LoadCSV( "gameplay\gui_new\swf\worldmap\wgm_gear_icons.csv" );
         if ( !marker ) { debugText += " " + wgm_Loc( "wgm_missing_map", "Map icon bundle not found." ); }
         theGame.GetGuiManager().ShowNotification( debugText );

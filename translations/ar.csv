@@ -40,3 +40,8 @@ option_wgm_icon_style;نمط الأيقونة
 preset_value_wgm_plain;بدون لون
 preset_value_wgm_colour_circle;لون المدرسة مع دائرة
 preset_value_wgm_colour;لون المدرسة بدون دائرة
+wgm_legendary;أسطوري
+wgm_note_ngp_crafted;اللعبة الجديدة+: العنصر المصنوع أسطوري.
+option_wgm_show_mode;عرض المخططات
+preset_value_wgm_show_discovered;المكتشفة فقط
+preset_value_wgm_show_all;الكل

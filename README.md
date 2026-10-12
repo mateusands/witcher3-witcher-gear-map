@@ -26,6 +26,11 @@ I tested the mod in game myself (DX12, Linux/Proton), together with Gwent Player
 - **School-aware title** such as *Cat School · Enhanced Silver Sword*. A chest with several
   diagrams uses one marker, `(+N)` in the title, and lists each diagram with its own status.
 - A **Witcher Gear** map filter with its own legend row and count. Markers also show under All.
+- **No spoilers by default**: a marker appears once that scavenger hunt objective is in your
+  journal (or once you know the diagram). Switch to *All* to see every location.
+- **New Game+**: Wolf and Manticore have their own NG+ diagrams; their markers say *(Legendary)*
+  and use the game's NG+ names. For the other schools, the tooltip notes that the crafted item is
+  Legendary in NG+ (the diagram itself is the same).
 - **18 languages**. Diagram names come from the game's own translations.
 
 ## Options
@@ -35,6 +40,8 @@ I tested the mod in game myself (DX12, Linux/Proton), together with Gwent Player
 ![Options](screenshots/options.jpg)
 
 - **Show gear markers**: turns all markers on or off.
+- **Show diagrams**: *Discovered only* (default) shows a location once its scavenger hunt
+  objective is in your journal; *All* shows every location.
 - **Hide obtained diagrams**: show only what you still need.
 - **Icon style**: No colour (default), School colour with circle, School colour without circle.
 - **Notify when a diagram is learned**: a short message when you pick up a new diagram.
@@ -78,11 +85,19 @@ Delete `mods/modWitcherGearMap`, `mods/mod0WitcherGearGwentMap` (if installed),
 - Three Grandmaster Wolf diagrams have two nearby sources; both are marked.
 - Countess Mignole's Hearts of Stone auction can be missed; the marker shows the source, not
   whether the quest still allows it.
-- Not tested yet: New Game+.
+- New Game+: tested with an NG+ save (Legendary names). A full NG+ playthrough is not tested.
 - Translations other than English and Brazilian Portuguese are machine-assisted; corrections
   are welcome. [Translation template](translations/TEMPLATE.csv): keep the key and placeholders,
   translate the text after `;`.
 - [Item list](data/items.csv) with coordinates and sources; [validation report](data/VALIDATION.md).
+
+## Changelog
+
+- **1.0.1**: "Show diagrams: Discovered only / All" option (Discovered only by default: markers
+  follow your scavenger hunt journal). New Game+: *(Legendary)* in the title for Wolf and
+  Manticore NG+ diagrams, and a note for the other schools; fixed an English name showing for the
+  Manticore NG+ diagram. Debug info also shows learned and hidden counts.
+- **1.0.0**: first release.
 
 ## AI disclosure
 

@@ -3,6 +3,16 @@
 	<Group id="wgm_Settings" displayName="Mods.wgm_map">
 		<VisibleVars>
 			<Var id="wgm_ShowPins" displayName="wgm_show_pins" displayType="TOGGLE" />
+			<Var id="wgm_ShowMode" displayName="wgm_show_mode" displayType="OPTIONS">
+				<OptionsArray>
+					<Option id="0" displayName="wgm_show_discovered">
+						<Entry varId="wgm_ShowMode" value="0" />
+					</Option>
+					<Option id="1" displayName="wgm_show_all">
+						<Entry varId="wgm_ShowMode" value="1" />
+					</Option>
+				</OptionsArray>
+			</Var>
 			<Var id="wgm_HideObtained" displayName="wgm_hide_obtained" displayType="TOGGLE" />
 			<Var id="wgm_IconStyle" displayName="wgm_icon_style" displayType="OPTIONS">
 				<OptionsArray>

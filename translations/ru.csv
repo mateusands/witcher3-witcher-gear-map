@@ -40,3 +40,8 @@ option_wgm_icon_style;Вид значка
 preset_value_wgm_plain;Без цвета
 preset_value_wgm_colour_circle;Цвет школы с кругом
 preset_value_wgm_colour;Цвет школы без круга
+wgm_legendary;Легендарный
+wgm_note_ngp_crafted;Новая игра+: созданный предмет будет легендарным.
+option_wgm_show_mode;Показывать чертежи
+preset_value_wgm_show_discovered;Только обнаруженные
+preset_value_wgm_show_all;Все

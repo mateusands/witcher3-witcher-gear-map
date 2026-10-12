@@ -40,3 +40,8 @@ option_wgm_icon_style;圖示樣式
 preset_value_wgm_plain;無顏色
 preset_value_wgm_colour_circle;學派顏色加圓環
 preset_value_wgm_colour;學派顏色無圓環
+wgm_legendary;傳奇
+wgm_note_ngp_crafted;新遊戲+：製作出的物品為傳奇品質。
+option_wgm_show_mode;顯示圖紙
+preset_value_wgm_show_discovered;僅已發現
+preset_value_wgm_show_all;全部

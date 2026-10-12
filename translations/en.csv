@@ -40,3 +40,8 @@ option_wgm_icon_style;Icon style
 preset_value_wgm_plain;No colour
 preset_value_wgm_colour_circle;School colour with circle
 preset_value_wgm_colour;School colour without circle
+wgm_legendary;Legendary
+wgm_note_ngp_crafted;New Game+: the crafted item is Legendary.
+option_wgm_show_mode;Show diagrams
+preset_value_wgm_show_discovered;Discovered only
+preset_value_wgm_show_all;All

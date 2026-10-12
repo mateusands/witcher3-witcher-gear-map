@@ -40,3 +40,8 @@ option_wgm_icon_style;Ikon stílusa
 preset_value_wgm_plain;Szín nélkül
 preset_value_wgm_colour_circle;Iskolaszín körrel
 preset_value_wgm_colour;Iskolaszín kör nélkül
+wgm_legendary;Legendás
+wgm_note_ngp_crafted;Új játék+: az elkészített tárgy legendás.
+option_wgm_show_mode;Tervrajzok megjelenítése
+preset_value_wgm_show_discovered;Csak a felfedezettek
+preset_value_wgm_show_all;Mind

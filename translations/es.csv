@@ -1,0 +1,42 @@
+# Machine-assisted translation draft; linguistic and in-game review pending.
+option_wgm_show_pins;Mostrar marcadores de equipo
+option_wgm_hide_obtained;Ocultar diagramas obtenidos
+option_wgm_notify;Avisar al aprender un diagrama
+option_wgm_debug;Información de diagnóstico
+option_wgm_school;Escuela
+option_wgm_tier;Nivel
+preset_value_wgm_all;Todos
+wgm_label;Equipo de brujo
+wgm_obtained;Diagrama aprendido.
+wgm_not_obtained;Diagrama aún no aprendido.
+wgm_notify;Diagrama aprendido: {item}
+wgm_debug_message;Equipo de brujo {version}: {count} lugares en {world}.
+wgm_missing_map;No se encontró el paquete de iconos del mapa.
+preset_value_wgm_school_1;Gato
+preset_value_wgm_school_2;Grifo
+preset_value_wgm_school_3;Oso
+preset_value_wgm_school_4;Lobo
+preset_value_wgm_school_5;Víbora
+preset_value_wgm_school_6;Mantícora
+preset_value_wgm_tier_1;Básico
+preset_value_wgm_tier_2;Mejorado
+preset_value_wgm_tier_3;Superior
+preset_value_wgm_tier_4;Maestro
+preset_value_wgm_tier_5;Gran maestro
+preset_value_wgm_tier_6;Hearts of Stone
+wgm_hint_search_the_marked_container_for_the_diagrams;Busca los diagramas en el recipiente marcado.
+wgm_hint_defeat_kiyan_in_the_underground_laboratory_and_search_his_remains;Derrota a Kiyan en el laboratorio subterráneo y registra sus restos.
+wgm_hint_buy_the_diagrams_from_countess_mignole_at_the_auction_quest_access_required_this_opportunity_can_be_missed;Compra los diagramas a la condesa Mignole en la subasta. El acceso requiere una misión; puedes perder esta oportunidad.
+wgm_hint_read_the_prayers_in_the_cave_to_learn_the_armor_diagram;Lee las plegarias de la cueva para aprender el diagrama de la armadura.
+wgm_marker_title;Escuela del {school} · {piece} ({tier})
+wgm_piece_1;Espada de acero
+wgm_piece_2;Espada de plata
+wgm_piece_3;Ballesta
+wgm_piece_4;Armadura
+wgm_piece_5;Guanteletes
+wgm_piece_6;Pantalones
+wgm_piece_7;Botas
+option_wgm_icon_style;Estilo del icono
+preset_value_wgm_plain;Sin color
+preset_value_wgm_colour_circle;Color de la escuela con círculo
+preset_value_wgm_colour;Color de la escuela sin círculo

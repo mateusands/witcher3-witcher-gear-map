@@ -1,0 +1,20 @@
+{
+  "items": 135,
+  "locations": 89,
+  "languages": 18,
+  "texts_per_language": 90,
+  "standalone": {
+    "types": 26,
+    "frames": 1733,
+    "characters": 1073,
+    "bundle_bytes": 1564704
+  },
+  "combined": {
+    "types": 28,
+    "frames": 1753,
+    "characters": 1079,
+    "bundle_bytes": 1565136
+  },
+  "game_script_compile": "Compiled and tested in game (patch 5.01, DX12)",
+  "linguistic_review": "Machine-assisted drafts; native review pending"
+}

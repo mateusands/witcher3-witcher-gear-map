@@ -1,0 +1,42 @@
+# Machine-assisted translation draft; linguistic and in-game review pending.
+option_wgm_show_pins;إظهار علامات العتاد
+option_wgm_hide_obtained;إخفاء المخططات المكتسبة
+option_wgm_notify;إشعار عند تعلم مخطط
+option_wgm_debug;معلومات التصحيح
+option_wgm_school;المدرسة
+option_wgm_tier;المستوى
+preset_value_wgm_all;الكل
+wgm_label;عتاد الويتشر
+wgm_obtained;تم تعلم المخطط.
+wgm_not_obtained;لم يتم تعلم المخطط بعد.
+wgm_notify;تم تعلم المخطط: {item}
+wgm_debug_message;عتاد الويتشر {version}: {count} مواقع في {world}.
+wgm_missing_map;لم يتم العثور على حزمة أيقونات الخريطة.
+preset_value_wgm_school_1;القط
+preset_value_wgm_school_2;الغريفين
+preset_value_wgm_school_3;الدب
+preset_value_wgm_school_4;الذئب
+preset_value_wgm_school_5;الأفعى
+preset_value_wgm_school_6;المانتيكور
+preset_value_wgm_tier_1;أساسي
+preset_value_wgm_tier_2;محسن
+preset_value_wgm_tier_3;متفوق
+preset_value_wgm_tier_4;متقن
+preset_value_wgm_tier_5;معلم كبير
+preset_value_wgm_tier_6;قلوب من حجر
+wgm_hint_search_the_marked_container_for_the_diagrams;ابحث عن المخططات في الحاوية المحددة.
+wgm_hint_defeat_kiyan_in_the_underground_laboratory_and_search_his_remains;اهزم كيان في المختبر تحت الأرض وفتش بقاياه.
+wgm_hint_buy_the_diagrams_from_countess_mignole_at_the_auction_quest_access_required_this_opportunity_can_be_missed;اشتر المخططات من الكونتيسة مينيول في المزاد. يتطلب الوصول مهمة وقد تفوتك هذه الفرصة.
+wgm_hint_read_the_prayers_in_the_cave_to_learn_the_armor_diagram;اقرأ الصلوات في الكهف لتعلم مخطط الدرع.
+wgm_marker_title;مدرسة {school} · {piece} ({tier})
+wgm_piece_1;سيف فولاذي
+wgm_piece_2;سيف فضي
+wgm_piece_3;نشاب
+wgm_piece_4;درع
+wgm_piece_5;قفازات
+wgm_piece_6;سروال
+wgm_piece_7;أحذية
+option_wgm_icon_style;نمط الأيقونة
+preset_value_wgm_plain;بدون لون
+preset_value_wgm_colour_circle;لون المدرسة مع دائرة
+preset_value_wgm_colour;لون المدرسة بدون دائرة

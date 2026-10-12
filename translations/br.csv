@@ -1,0 +1,42 @@
+# Machine-assisted translation draft; linguistic and in-game review pending.
+option_wgm_show_pins;Mostrar marcadores de equipamento
+option_wgm_hide_obtained;Esconder diagramas obtidos
+option_wgm_notify;Notificar ao aprender um diagrama
+option_wgm_debug;Informações de depuração
+option_wgm_school;Escola
+option_wgm_tier;Nível
+preset_value_wgm_all;Todos
+wgm_label;Equipamento de bruxo
+wgm_obtained;Diagrama aprendido.
+wgm_not_obtained;Diagrama ainda não aprendido.
+wgm_notify;Diagrama aprendido: {item}
+wgm_debug_message;Equipamento de bruxo {version}: {count} locais em {world}.
+wgm_missing_map;Pacote de ícones do mapa não encontrado.
+preset_value_wgm_school_1;Gato
+preset_value_wgm_school_2;Grifo
+preset_value_wgm_school_3;Urso
+preset_value_wgm_school_4;Lobo
+preset_value_wgm_school_5;Víbora
+preset_value_wgm_school_6;Manticora
+preset_value_wgm_tier_1;Básico
+preset_value_wgm_tier_2;Melhorado
+preset_value_wgm_tier_3;Superior
+preset_value_wgm_tier_4;Obra-prima
+preset_value_wgm_tier_5;Grão-mestre
+preset_value_wgm_tier_6;Hearts of Stone
+wgm_hint_search_the_marked_container_for_the_diagrams;Procure os diagramas no recipiente marcado.
+wgm_hint_defeat_kiyan_in_the_underground_laboratory_and_search_his_remains;Derrote Kiyan no laboratório subterrâneo e vasculhe seus restos.
+wgm_hint_buy_the_diagrams_from_countess_mignole_at_the_auction_quest_access_required_this_opportunity_can_be_missed;Compre os diagramas da Condessa Mignole no leilão. O acesso depende da missão; essa oportunidade pode ser perdida.
+wgm_hint_read_the_prayers_in_the_cave_to_learn_the_armor_diagram;Leia as preces na caverna para aprender o diagrama da armadura.
+wgm_marker_title;Escola do {school} · {piece} ({tier})
+wgm_piece_1;Espada de aço
+wgm_piece_2;Espada de prata
+wgm_piece_3;Besta
+wgm_piece_4;Armadura
+wgm_piece_5;Manoplas
+wgm_piece_6;Calças
+wgm_piece_7;Botas
+option_wgm_icon_style;Estilo do ícone
+preset_value_wgm_plain;Sem cor
+preset_value_wgm_colour_circle;Cor da escola com círculo
+preset_value_wgm_colour;Cor da escola sem círculo

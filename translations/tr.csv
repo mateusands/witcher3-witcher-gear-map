@@ -1,0 +1,42 @@
+# Machine-assisted translation draft; linguistic and in-game review pending.
+option_wgm_show_pins;Teçhizat işaretlerini göster
+option_wgm_hide_obtained;Edinilen diyagramları gizle
+option_wgm_notify;Diyagram öğrenildiğinde bildir
+option_wgm_debug;Hata ayıklama bilgileri
+option_wgm_school;Okul
+option_wgm_tier;Kademe
+preset_value_wgm_all;Tümü
+wgm_label;Witcher Teçhizatı
+wgm_obtained;Diyagram öğrenildi.
+wgm_not_obtained;Diyagram henüz öğrenilmedi.
+wgm_notify;Diyagram öğrenildi: {item}
+wgm_debug_message;Witcher Teçhizatı {version}: {world} bölgesinde {count} konum.
+wgm_missing_map;Harita simgesi paketi bulunamadı.
+preset_value_wgm_school_1;Kedi
+preset_value_wgm_school_2;Grifon
+preset_value_wgm_school_3;Ayı
+preset_value_wgm_school_4;Kurt
+preset_value_wgm_school_5;Engerek
+preset_value_wgm_school_6;Mantikor
+preset_value_wgm_tier_1;Temel
+preset_value_wgm_tier_2;Geliştirilmiş
+preset_value_wgm_tier_3;Üstün
+preset_value_wgm_tier_4;Usta işi
+preset_value_wgm_tier_5;Büyükusta
+preset_value_wgm_tier_6;Hearts of Stone
+wgm_hint_search_the_marked_container_for_the_diagrams;Diyagramları işaretli kapta ara.
+wgm_hint_defeat_kiyan_in_the_underground_laboratory_and_search_his_remains;Yeraltı laboratuvarında Kiyan’ı yen ve kalıntılarını ara.
+wgm_hint_buy_the_diagrams_from_countess_mignole_at_the_auction_quest_access_required_this_opportunity_can_be_missed;Diyagramları müzayedede Kontes Mignole’dan satın al. Erişim bir göreve bağlıdır; bu fırsat kaçırılabilir.
+wgm_hint_read_the_prayers_in_the_cave_to_learn_the_armor_diagram;Zırh diyagramını öğrenmek için mağaradaki duaları oku.
+wgm_marker_title;{school} Okulu · {tier} {piece}
+wgm_piece_1;Çelik Kılıç
+wgm_piece_2;Gümüş Kılıç
+wgm_piece_3;Arbalet
+wgm_piece_4;Zırh
+wgm_piece_5;Eldiven
+wgm_piece_6;Pantolon
+wgm_piece_7;Çizme
+option_wgm_icon_style;Simge biçimi
+preset_value_wgm_plain;Renksiz
+preset_value_wgm_colour_circle;Okul rengi ve çember
+preset_value_wgm_colour;Çembersiz okul rengi

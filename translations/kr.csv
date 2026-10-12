@@ -1,0 +1,42 @@
+# Machine-assisted translation draft; linguistic and in-game review pending.
+option_wgm_show_pins;장비 마커 표시
+option_wgm_hide_obtained;획득한 도면 숨기기
+option_wgm_notify;도면 습득 시 알림
+option_wgm_debug;디버그 정보
+option_wgm_school;교단
+option_wgm_tier;등급
+preset_value_wgm_all;전체
+wgm_label;위쳐 장비
+wgm_obtained;도면을 습득했습니다.
+wgm_not_obtained;아직 도면을 습득하지 않았습니다.
+wgm_notify;도면 습득: {item}
+wgm_debug_message;위쳐 장비 {version}: {world}에 {count}곳.
+wgm_missing_map;지도 아이콘 번들을 찾을 수 없습니다.
+preset_value_wgm_school_1;살쾡이
+preset_value_wgm_school_2;그리핀
+preset_value_wgm_school_3;곰
+preset_value_wgm_school_4;늑대
+preset_value_wgm_school_5;바이퍼
+preset_value_wgm_school_6;만티코어
+preset_value_wgm_tier_1;기본
+preset_value_wgm_tier_2;강화
+preset_value_wgm_tier_3;우수
+preset_value_wgm_tier_4;장인
+preset_value_wgm_tier_5;그랜드마스터
+preset_value_wgm_tier_6;하츠 오브 스톤
+wgm_hint_search_the_marked_container_for_the_diagrams;표시된 상자에서 도면을 찾으세요.
+wgm_hint_defeat_kiyan_in_the_underground_laboratory_and_search_his_remains;지하 연구소에서 키얀을 물리치고 시신을 조사하세요.
+wgm_hint_buy_the_diagrams_from_countess_mignole_at_the_auction_quest_access_required_this_opportunity_can_be_missed;경매에서 미뇰 백작부인에게 도면을 구매하세요. 퀘스트를 통해서만 접근할 수 있으며 기회를 놓칠 수 있습니다.
+wgm_hint_read_the_prayers_in_the_cave_to_learn_the_armor_diagram;동굴의 기도문을 읽어 갑옷 도면을 습득하세요.
+wgm_marker_title;{school} 교단 · {tier} {piece}
+wgm_piece_1;강철검
+wgm_piece_2;은검
+wgm_piece_3;석궁
+wgm_piece_4;갑옷
+wgm_piece_5;건틀릿
+wgm_piece_6;바지
+wgm_piece_7;장화
+option_wgm_icon_style;아이콘 스타일
+preset_value_wgm_plain;색상 없음
+preset_value_wgm_colour_circle;교단 색상과 원
+preset_value_wgm_colour;교단 색상만

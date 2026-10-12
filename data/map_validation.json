@@ -1,0 +1,1042 @@
+[
+  {
+    "map_world": "white_orchard",
+    "map_title": "Serpentine steel sword",
+    "source_coord": [
+      -72.5,
+      -17
+    ],
+    "converted_position": [
+      408.12871405001044,
+      -93.44392418807979
+    ],
+    "matched_schematic": "Viper Steel sword schematic",
+    "game_pin_id": 66,
+    "correction_metres": 2.56,
+    "status": "Matched by school/tier/item; game source used"
+  },
+  {
+    "map_world": "white_orchard",
+    "map_title": "Serpentine silver sword",
+    "source_coord": [
+      -32.953,
+      -95.142
+    ],
+    "converted_position": [
+      -27.739783403948877,
+      308.66748762733096
+    ],
+    "matched_schematic": "Viper Silver sword schematic",
+    "game_pin_id": 67,
+    "correction_metres": 18.66,
+    "status": "Matched by school/tier/item; game source used"
+  },
+  {
+    "map_world": "velen",
+    "map_title": "Feline Crossbow",
+    "source_coord": [
+      184.469,
+      62.484
+    ],
+    "converted_position": [
+      -20.062107648655456,
+      1491.992613041737
+    ],
+    "matched_schematic": "Lynx School Crossbow schematic",
+    "game_pin_id": 41,
+    "correction_metres": 18.78,
+    "status": "Matched by school/tier/item; game source used"
+  },
+  {
+    "map_world": "velen",
+    "map_title": "Superior Feline Silver Sword",
+    "source_coord": [
+      166.359,
+      99.516
+    ],
+    "converted_position": [
+      602.6566805418963,
+      1187.4087798389496
+    ],
+    "matched_schematic": "Lynx School silver sword Upgrade schematic 2",
+    "game_pin_id": 48,
+    "correction_metres": 33.78,
+    "status": "Matched by school/tier/item; game source used"
+  },
+  {
+    "map_world": "velen",
+    "map_title": "Feline Steel Sword",
+    "source_coord": [
+      178.547,
+      106.328
+    ],
+    "converted_position": [
+      717.4605744176401,
+      1392.530686585069
+    ],
+    "matched_schematic": "Lynx School steel sword schematic",
+    "game_pin_id": 39,
+    "correction_metres": 10.18,
+    "status": "Matched by school/tier/item; game source used"
+  },
+  {
+    "map_world": "velen",
+    "map_title": "Enhanced Feline Silver Sword",
+    "source_coord": [
+      212.688,
+      113.969
+    ],
+    "converted_position": [
+      846.5726073786095,
+      1967.068173124289
+    ],
+    "matched_schematic": "Lynx School silver sword Upgrade schematic 1",
+    "game_pin_id": 47,
+    "correction_metres": 12.09,
+    "status": "Matched by school/tier/item; game source used"
+  },
+  {
+    "map_world": "velen",
+    "map_title": "Feline Silver Sword",
+    "source_coord": [
+      182.563,
+      191.609
+    ],
+    "converted_position": [
+      2152.272183254244,
+      1460.4790240306534
+    ],
+    "matched_schematic": "Lynx School silver sword schematic",
+    "game_pin_id": 40,
+    "correction_metres": 6.6,
+    "status": "Matched by school/tier/item; game source used"
+  },
+  {
+    "map_world": "velen",
+    "map_title": "Enhanced Feline Armor",
+    "source_coord": [
+      156.031,
+      208.844
+    ],
+    "converted_position": [
+      2441.7927637533953,
+      1014.0890271936632
+    ],
+    "matched_schematic": "Witcher Lynx Jacket Upgrade schematic 1",
+    "game_pin_id": 44,
+    "correction_metres": 4.74,
+    "status": "Matched by school/tier/item; game source used"
+  },
+  {
+    "map_world": "velen",
+    "map_title": "Enhanced Feline Steel Sword",
+    "source_coord": [
+      92.859,
+      155.953
+    ],
+    "converted_position": [
+      1550.9286834747313,
+      -49.16085751575429
+    ],
+    "matched_schematic": "Lynx School steel sword Upgrade schematic 1",
+    "game_pin_id": 50,
+    "correction_metres": 39.82,
+    "status": "Matched by school/tier/item; game source used"
+  },
+  {
+    "map_world": "velen",
+    "map_title": "Superior Feline Steel Sword",
+    "source_coord": [
+      237.984,
+      105.422
+    ],
+    "converted_position": [
+      703.1963558314976,
+      2392.6971405805916
+    ],
+    "matched_schematic": "Lynx School steel sword Upgrade schematic 2",
+    "game_pin_id": 49,
+    "correction_metres": 60.62,
+    "status": "Matched by school/tier/item; game source used"
+  },
+  {
+    "map_world": "velen",
+    "map_title": "Griffin Silver Sword",
+    "source_coord": [
+      153.094,
+      46.281
+    ],
+    "converted_position": [
+      -293.1735005169925,
+      963.9626290757142
+    ],
+    "matched_schematic": "Gryphon School silver sword schematic",
+    "game_pin_id": 58,
+    "correction_metres": 11.03,
+    "status": "Matched by school/tier/item; game source used"
+  },
+  {
+    "map_world": "velen",
+    "map_title": "Enhance Griffin Boots",
+    "source_coord": [
+      149.938,
+      75.813
+    ],
+    "converted_position": [
+      203.6133064704345,
+      910.9832929647328
+    ],
+    "matched_schematic": "Witcher Gryphon Boots Upgrade schematic 1",
+    "game_pin_id": 51,
+    "correction_metres": 16.48,
+    "status": "Matched by school/tier/item; game source used"
+  },
+  {
+    "map_world": "velen",
+    "map_title": "Griffin Steel Sword",
+    "source_coord": [
+      160.063,
+      127.094
+    ],
+    "converted_position": [
+      1066.5182244743487,
+      1081.582931047014
+    ],
+    "matched_schematic": "Gryphon School steel sword schematic",
+    "game_pin_id": 59,
+    "correction_metres": 16.48,
+    "status": "Matched by school/tier/item; game source used"
+  },
+  {
+    "map_world": "velen",
+    "map_title": "Enhance Griffin Armor",
+    "source_coord": [
+      156.047,
+      152.828
+    ],
+    "converted_position": [
+      1499.3943081184843,
+      1014.1155728948479
+    ],
+    "matched_schematic": "Witcher Gryphon Jacket Upgrade schematic 1",
+    "game_pin_id": 54,
+    "correction_metres": 8.94,
+    "status": "Matched by school/tier/item; game source used"
+  },
+  {
+    "map_world": "velen",
+    "map_title": "Enhanced Feline Gauntlets",
+    "source_coord": [
+      144.234,
+      134.609
+    ],
+    "converted_position": [
+      1192.6881628601777,
+      815.2545209184241
+    ],
+    "matched_schematic": "Witcher Lynx Gloves Upgrade schematic 1",
+    "game_pin_id": 43,
+    "correction_metres": 20.89,
+    "status": "Matched by school/tier/item; game source used"
+  },
+  {
+    "map_world": "velen",
+    "map_title": "Enhance Griffin Trousers",
+    "source_coord": [
+      107.375,
+      84.438
+    ],
+    "converted_position": [
+      348.0176652319535,
+      194.79588794969845
+    ],
+    "matched_schematic": "Witcher Gryphon Pants Upgrade schematic 1",
+    "game_pin_id": 53,
+    "correction_metres": 9.85,
+    "status": "Matched by school/tier/item; game source used"
+  },
+  {
+    "map_world": "velen",
+    "map_title": "Enhanced Griffin Steel Sword",
+    "source_coord": [
+      78.516,
+      16.875
+    ],
+    "converted_position": [
+      -789.119701755515,
+      -291.11886926625743
+    ],
+    "matched_schematic": "Gryphon School steel sword Upgrade schematic 1",
+    "game_pin_id": 55,
+    "correction_metres": 24.41,
+    "status": "Matched by school/tier/item; game source used"
+  },
+  {
+    "map_world": "velen",
+    "map_title": "Superior Feline Armor",
+    "source_coord": [
+      73.047,
+      121.813
+    ],
+    "converted_position": [
+      976.2401144823475,
+      -382.6932884562875
+    ],
+    "matched_schematic": "Witcher Lynx Jacket Upgrade schematic 2",
+    "game_pin_id": 45,
+    "correction_metres": 5.31,
+    "status": "Matched by school/tier/item; game source used"
+  },
+  {
+    "map_world": "velen",
+    "map_title": "Griffin Armor",
+    "source_coord": [
+      81.594,
+      136.344
+    ],
+    "converted_position": [
+      1220.8465550103965,
+      -238.8065146577519
+    ],
+    "matched_schematic": "Gryphon Armor schematic",
+    "game_pin_id": 57,
+    "correction_metres": 64.12,
+    "status": "Matched by school/tier/item; game source used"
+  },
+  {
+    "map_world": "velen",
+    "map_title": "Superior Ursine Steel Sword",
+    "source_coord": [
+      68.297,
+      154.859
+    ],
+    "converted_position": [
+      1532.1193192842125,
+      -462.48028105789626
+    ],
+    "matched_schematic": "Bear School steel sword Upgrade schematic 2",
+    "game_pin_id": 62,
+    "correction_metres": 20.9,
+    "status": "Matched by school/tier/item; game source used"
+  },
+  {
+    "map_world": "velen",
+    "map_title": "Mastercrafted Ursine Armor",
+    "source_coord": [
+      23.953,
+      149.766
+    ],
+    "converted_position": [
+      1445.706280437511,
+      -1208.6967257065176
+    ],
+    "matched_schematic": "Witcher Bear Jacket Upgrade schematic 3",
+    "game_pin_id": 61,
+    "correction_metres": 8.16,
+    "status": "Matched by school/tier/item; game source used"
+  },
+  {
+    "map_world": "velen",
+    "map_title": "Mastercrafted Ursine Silver Sword",
+    "source_coord": [
+      43.828,
+      107.953
+    ],
+    "converted_position": [
+      742.5822275762753,
+      -874.4332393770666
+    ],
+    "matched_schematic": "Bear School silver sword Upgrade schematic 3",
+    "game_pin_id": 65,
+    "correction_metres": 16.23,
+    "status": "Matched by school/tier/item; game source used"
+  },
+  {
+    "map_world": "velen",
+    "map_title": "Mastercrafted Ursine Steel Sword",
+    "source_coord": [
+      116.344,
+      45.563
+    ],
+    "converted_position": [
+      -305.85770274799313,
+      345.5524412381226
+    ],
+    "matched_schematic": "Bear School steel sword Upgrade schematic 3",
+    "game_pin_id": 63,
+    "correction_metres": 35.54,
+    "status": "Matched by school/tier/item; game source used"
+  },
+  {
+    "map_world": "velen",
+    "map_title": "Enhance Griffin Gauntlets",
+    "source_coord": [
+      23.656,
+      78.094
+    ],
+    "converted_position": [
+      239.91017295990468,
+      -1214.004987867303
+    ],
+    "matched_schematic": "Witcher Gryphon Gloves Upgrade schematic 1",
+    "game_pin_id": 56,
+    "correction_metres": 20.2,
+    "status": "Matched by school/tier/item; game source used"
+  },
+  {
+    "map_world": "velen",
+    "map_title": "Superior Ursine Silver Sword",
+    "source_coord": [
+      53,
+      130.547
+    ],
+    "converted_position": [
+      1122.8487829473029,
+      -719.9944049758581
+    ],
+    "matched_schematic": "Bear School silver sword Upgrade schematic 2",
+    "game_pin_id": 60,
+    "correction_metres": 35.76,
+    "status": "Matched by school/tier/item; game source used"
+  },
+  {
+    "map_world": "velen",
+    "map_title": "Superior Ursine Gauntlets",
+    "source_coord": [
+      142.922,
+      117.656
+    ],
+    "converted_position": [
+      907.4536784632751,
+      793.1035176705209
+    ],
+    "matched_schematic": "Witcher Bear Gloves Upgrade schematic 2",
+    "game_pin_id": 64,
+    "correction_metres": 38.0,
+    "status": "Matched by school/tier/item; game source used"
+  },
+  {
+    "map_world": "velen",
+    "map_title": "Enhanced Wolven Silver Sword",
+    "source_coord": [
+      106.703,
+      72.75
+    ],
+    "converted_position": [
+      151.37071304752453,
+      183.43723384979353
+    ],
+    "matched_schematic": "Wolf School silver sword Upgrade schematic 1",
+    "game_pin_id": 11,
+    "correction_metres": 12.77,
+    "status": "Matched by school/tier/item; game source used"
+  },
+  {
+    "map_world": "velen",
+    "map_title": "Enhanced Wolven Boots",
+    "source_coord": [
+      110.813,
+      179.125
+    ],
+    "converted_position": [
+      1941.0638776164687,
+      253.05873826856669
+    ],
+    "matched_schematic": "Witcher Wolf Boots Upgrade schematic 1",
+    "game_pin_id": 12,
+    "correction_metres": 78.41,
+    "status": "Matched by school/tier/item; game source used"
+  },
+  {
+    "map_world": "velen",
+    "map_title": "Enhanced Wolven Armor",
+    "source_coord": [
+      39.219,
+      71.719
+    ],
+    "converted_position": [
+      132.914922911762,
+      -952.1477279384857
+    ],
+    "matched_schematic": "Witcher Wolf Jacket Upgrade schematic 1",
+    "game_pin_id": 10,
+    "correction_metres": 6.0,
+    "status": "Matched by school/tier/item; game source used"
+  },
+  {
+    "map_world": "velen",
+    "map_title": "Mastercrafted Wolven Silver Sword",
+    "source_coord": [
+      50.953,
+      182.453
+    ],
+    "converted_position": [
+      1996.0682379061782,
+      -754.2152139259424
+    ],
+    "matched_schematic": "Wolf School silver sword Upgrade schematic 3",
+    "game_pin_id": 15,
+    "correction_metres": 11.44,
+    "status": "Matched by school/tier/item; game source used"
+  },
+  {
+    "map_world": "velen",
+    "map_title": "Mastercrafted Wolven Armor",
+    "source_coord": [
+      36.688,
+      53.203
+    ],
+    "converted_position": [
+      -178.63512965576797,
+      -994.818107794252
+    ],
+    "matched_schematic": "Witcher Wolf Jacket Upgrade schematic 3",
+    "game_pin_id": 13,
+    "correction_metres": 6.24,
+    "status": "Matched by school/tier/item; game source used"
+  },
+  {
+    "map_world": "velen",
+    "map_title": "Mastercrafted Wolven Steel Sword",
+    "source_coord": [
+      46.797,
+      24.547
+    ],
+    "converted_position": [
+      -660.5699207319258,
+      -824.8340401204298
+    ],
+    "matched_schematic": "Wolf School steel sword Upgrade schematic 3",
+    "game_pin_id": 14,
+    "correction_metres": 5.46,
+    "status": "Matched by school/tier/item; game source used"
+  },
+  {
+    "map_world": "skellige",
+    "map_title": "Ursine Steel Sword Diagram",
+    "source_coord": [
+      -58.344,
+      -2.549
+    ],
+    "converted_position": [
+      646.1143932491113,
+      -798.7837432261313
+    ],
+    "matched_schematic": "Bear School steel sword schematic",
+    "game_pin_id": 79,
+    "correction_metres": 11.14,
+    "status": "Matched by school/tier/item; game source used"
+  },
+  {
+    "map_world": "skellige",
+    "map_title": "Enhanced Ursine Boots Diagram",
+    "source_coord": [
+      -57.404,
+      -49.349
+    ],
+    "converted_position": [
+      -325.9917060438256,
+      -761.7387393135223
+    ],
+    "matched_schematic": "Witcher Bear Boots Upgrade schematic 1",
+    "game_pin_id": 85,
+    "correction_metres": 41.06,
+    "status": "Matched by school/tier/item; game source used"
+  },
+  {
+    "map_world": "skellige",
+    "map_title": "Mastercrafted Griffin Steel Sword Diagram",
+    "source_coord": [
+      -40.112,
+      -14.546
+    ],
+    "converted_position": [
+      396.2631605699212,
+      -209.8335966512168
+    ],
+    "matched_schematic": "Gryphon School steel sword Upgrade schematic 3",
+    "game_pin_id": 72,
+    "correction_metres": 8.95,
+    "status": "Matched by school/tier/item; game source used"
+  },
+  {
+    "map_world": "skellige",
+    "map_title": "Enhanced Ursine Gauntlets Diagram",
+    "source_coord": [
+      -1.274,
+      -11.931
+    ],
+    "converted_position": [
+      449.57817152958296,
+      674.1562950310204
+    ],
+    "matched_schematic": "Witcher Bear Gloves Upgrade schematic 1",
+    "game_pin_id": 84,
+    "correction_metres": 9.49,
+    "status": "Matched by school/tier/item; game source used"
+  },
+  {
+    "map_world": "skellige",
+    "map_title": "Superior Griffin Armour Set Diagrams",
+    "source_coord": [
+      8.559,
+      13.733
+    ],
+    "converted_position": [
+      982.403429190907,
+      878.7588650096318
+    ],
+    "matched_schematic": "Witcher Gryphon Jacket Upgrade schematic 2",
+    "game_pin_id": 75,
+    "correction_metres": 3.25,
+    "status": "Matched by school/tier/item; game source used"
+  },
+  {
+    "map_world": "skellige",
+    "map_title": "Mastercrafted Griffin Armor Diagrams",
+    "source_coord": [
+      -22,
+      31
+    ],
+    "converted_position": [
+      1341.781220912147,
+      231.92734064138313
+    ],
+    "matched_schematic": "Witcher Gryphon Jacket Upgrade schematic 3",
+    "game_pin_id": 73,
+    "correction_metres": 17.05,
+    "status": "Matched by school/tier/item; game source used"
+  },
+  {
+    "map_world": "skellige",
+    "map_title": "Superior Griffin Steel Sword Diagram",
+    "source_coord": [
+      54.5,
+      32
+    ],
+    "converted_position": [
+      1360.4890767323081,
+      2055.1664054148796
+    ],
+    "matched_schematic": "Gryphon School steel sword Upgrade schematic 2",
+    "game_pin_id": 74,
+    "correction_metres": 3.66,
+    "status": "Matched by school/tier/item; game source used"
+  },
+  {
+    "map_world": "skellige",
+    "map_title": "Ursine Silver Sword Diagram",
+    "source_coord": [
+      5.5,
+      -17
+    ],
+    "converted_position": [
+      344.13264804427035,
+      814.9955290411435
+    ],
+    "matched_schematic": "Bear School silver sword schematic",
+    "game_pin_id": 80,
+    "correction_metres": 4.2,
+    "status": "Matched by school/tier/item; game source used"
+  },
+  {
+    "map_world": "skellige",
+    "map_title": "Ursine Armor Set Diagrams",
+    "source_coord": [
+      53.8,
+      38.5
+    ],
+    "converted_position": [
+      1495.5261185698769,
+      2030.3053914559787
+    ],
+    "matched_schematic": "Bear Armor schematic",
+    "game_pin_id": 77,
+    "correction_metres": 20.05,
+    "status": "Matched by school/tier/item; game source used"
+  },
+  {
+    "map_world": "skellige",
+    "map_title": "Ursine Crossbow Diagram",
+    "source_coord": [
+      17.8,
+      -123.5
+    ],
+    "converted_position": [
+      -1868.2329672219782,
+      1077.0418359362225
+    ],
+    "matched_schematic": "Bear School Crossbow schematic",
+    "game_pin_id": 78,
+    "correction_metres": 32.12,
+    "status": "Matched by school/tier/item; game source used"
+  },
+  {
+    "map_world": "skellige",
+    "map_title": "Superior Griffin Silver Sword Diagram",
+    "source_coord": [
+      -70.5,
+      -8.6
+    ],
+    "converted_position": [
+      521.1051986634047,
+      -1394.2774563599387
+    ],
+    "matched_schematic": "Gryphon School silver sword Upgrade schematic 2",
+    "game_pin_id": 76,
+    "correction_metres": 82.67,
+    "status": "Matched by school/tier/item; game source used"
+  },
+  {
+    "map_world": "skellige",
+    "map_title": "Mastercrafted Griffin Silver Sword Diagram",
+    "source_coord": [
+      -50,
+      -34.5
+    ],
+    "converted_position": [
+      -17.863621106544997,
+      -501.3550045322536
+    ],
+    "matched_schematic": "Gryphon School silver sword Upgrade schematic 3",
+    "game_pin_id": 71,
+    "correction_metres": 16.75,
+    "status": "Matched by school/tier/item; game source used"
+  },
+  {
+    "map_world": "skellige",
+    "map_title": "Mastercrafted Feline Steel Sword Diagram",
+    "source_coord": [
+      -12.297,
+      0.769
+    ],
+    "converted_position": [
+      713.626058167139,
+      443.25145644232543
+    ],
+    "matched_schematic": "Lynx School steel sword Upgrade schematic 3",
+    "game_pin_id": 70,
+    "correction_metres": 9.93,
+    "status": "Matched by school/tier/item; game source used"
+  },
+  {
+    "map_world": "skellige",
+    "map_title": "Mastercrafted Feline Armor Diagram",
+    "source_coord": [
+      -78.039,
+      68.049
+    ],
+    "converted_position": [
+      2113.8176299848733,
+      -1983.4206047941334
+    ],
+    "matched_schematic": "Witcher Lynx Jacket Upgrade schematic 3",
+    "game_pin_id": 68,
+    "correction_metres": 9.21,
+    "status": "Matched by school/tier/item; game source used"
+  },
+  {
+    "map_world": "skellige",
+    "map_title": "Mastercrafted Feline Silver Sword Diagram",
+    "source_coord": [
+      -77.147,
+      58.162
+    ],
+    "converted_position": [
+      1908.3610532697353,
+      -1897.1249987054052
+    ],
+    "matched_schematic": "Lynx School silver sword Upgrade schematic 3",
+    "game_pin_id": 69,
+    "correction_metres": 10.33,
+    "status": "Matched by school/tier/item; game source used"
+  },
+  {
+    "map_world": "skellige",
+    "map_title": "Mastercrafted Wolven Gauntlets Diagram",
+    "source_coord": [
+      -37.44,
+      -21.907
+    ],
+    "converted_position": [
+      243.2901814081074,
+      -138.6137159543723
+    ],
+    "matched_schematic": "Witcher Wolf Gloves Upgrade schematic 3",
+    "game_pin_id": 19,
+    "correction_metres": 9.88,
+    "status": "Matched by school/tier/item; game source used"
+  },
+  {
+    "map_world": "skellige",
+    "map_title": "Mastercrafted Wolven Trousers Diagram",
+    "source_coord": [
+      22.634,
+      -120.85
+    ],
+    "converted_position": [
+      -1813.3118814274205,
+      1184.0015314063526
+    ],
+    "matched_schematic": "Witcher Wolf Pants Upgrade schematic 3",
+    "game_pin_id": 21,
+    "correction_metres": 21.02,
+    "status": "Matched by school/tier/item; game source used"
+  },
+  {
+    "map_world": "skellige",
+    "map_title": "Mastercrafted Wolven Boots Diagram",
+    "source_coord": [
+      -58.043,
+      -107.886
+    ],
+    "converted_position": [
+      -1541.8128399843133,
+      -786.1457849592216
+    ],
+    "matched_schematic": "Witcher Wolf Boots Upgrade schematic 3",
+    "game_pin_id": 20,
+    "correction_metres": 8.57,
+    "status": "Matched by school/tier/item; game source used"
+  },
+  {
+    "map_world": "skellige",
+    "map_title": "Superior Wolven Steel Sword Diagram",
+    "source_coord": [
+      -27.722,
+      73.894
+    ],
+    "converted_position": [
+      2232.863999248892,
+      100.61410852703739
+    ],
+    "matched_schematic": "Wolf School steel sword Upgrade schematic 2",
+    "game_pin_id": 17,
+    "correction_metres": 9.34,
+    "status": "Matched by school/tier/item; game source used"
+  },
+  {
+    "map_world": "skellige",
+    "map_title": "Superior Wolven Silver Sword Diagram",
+    "source_coord": [
+      -46.119,
+      -57.437
+    ],
+    "converted_position": [
+      -494.4155893308316,
+      -380.5599566497185
+    ],
+    "matched_schematic": "Wolf School silver sword Upgrade schematic 2",
+    "game_pin_id": 18,
+    "correction_metres": 8.76,
+    "status": "Matched by school/tier/item; game source used"
+  },
+  {
+    "map_world": "skellige",
+    "map_title": "Superior Wolven Armor Diagram",
+    "source_coord": [
+      -59.221,
+      -23.73
+    ],
+    "converted_position": [
+      206.21183180778507,
+      -833.7556996786334
+    ],
+    "matched_schematic": "Witcher Wolf Jacket Upgrade schematic 2",
+    "game_pin_id": 16,
+    "correction_metres": 15.23,
+    "status": "Matched by school/tier/item; game source used"
+  },
+  {
+    "map_world": "toussaint",
+    "map_title": "Witchergear: Manticore steel sword",
+    "source_coord": [
+      69.984,
+      42.813
+    ],
+    "converted_position": [
+      -1157.7596449647758,
+      -814.2833331819902
+    ],
+    "matched_schematic": "Red Wolf School steel sword schematic 1",
+    "game_pin_id": 24,
+    "correction_metres": 7.62,
+    "status": "Matched by school/tier/item; game source used"
+  },
+  {
+    "map_world": "toussaint",
+    "map_title": "Witchergear: Manticore trousers & boots",
+    "source_coord": [
+      97.984,
+      60.766
+    ],
+    "converted_position": [
+      -597.269589911509,
+      64.80933588117932
+    ],
+    "matched_schematic": "Witcher Red Wolf Pants schematic 1",
+    "game_pin_id": 26,
+    "correction_metres": 108.2,
+    "status": "Matched by school/tier/item; game source used"
+  },
+  {
+    "map_world": "toussaint",
+    "map_title": "Witchergear: Manticore silver sword",
+    "source_coord": [
+      46.984,
+      51.5
+    ],
+    "converted_position": [
+      -886.8788563336866,
+      -1533.334605836749
+    ],
+    "matched_schematic": "Red Wolf School silver sword schematic 1",
+    "game_pin_id": 25,
+    "correction_metres": 124.16,
+    "status": "Matched by school/tier/item; game source used"
+  },
+  {
+    "map_world": "toussaint",
+    "map_title": "Witchergear: Griffin steel sword, gauntlets and boots",
+    "source_coord": [
+      69.078,
+      116.578
+    ],
+    "converted_position": [
+      1144.1384117485072,
+      -833.0184681625342
+    ],
+    "matched_schematic": "Gryphon School steel sword Upgrade schematic 4",
+    "game_pin_id": 32,
+    "correction_metres": 14.03,
+    "status": "Matched by school/tier/item; game source used"
+  },
+  {
+    "map_world": "toussaint",
+    "map_title": "Witchergear: Ursine silver sword, armor and gauntlets",
+    "source_coord": [
+      65.641,
+      91.719
+    ],
+    "converted_position": [
+      368.3592919389357,
+      -943.8859374399149
+    ],
+    "matched_schematic": "Bear School silver sword Upgrade schematic 4",
+    "game_pin_id": 27,
+    "correction_metres": 9.22,
+    "status": "Matched by school/tier/item; game source used"
+  },
+  {
+    "map_world": "toussaint",
+    "map_title": "Witchergear: Griffin armor, trousers and silver sword",
+    "source_coord": [
+      80.469,
+      107.956
+    ],
+    "converted_position": [
+      875.182432016778,
+      -477.46467093573347
+    ],
+    "matched_schematic": "Gryphon School silver sword Upgrade schematic 4",
+    "game_pin_id": 35,
+    "correction_metres": 213.24,
+    "status": "Matched by school/tier/item; game source used"
+  },
+  {
+    "map_world": "toussaint",
+    "map_title": "Witchergear: Ursine steel sword, trousers and boots",
+    "source_coord": [
+      73.156,
+      86.656
+    ],
+    "converted_position": [
+      210.43066927951395,
+      -709.2342913570174
+    ],
+    "matched_schematic": "Bear School steel sword Upgrade schematic 4",
+    "game_pin_id": 28,
+    "correction_metres": 66.51,
+    "status": "Matched by school/tier/item; game source used"
+  },
+  {
+    "map_world": "toussaint",
+    "map_title": "Witchergear: Feline armor",
+    "source_coord": [
+      113.609,
+      81.078
+    ],
+    "converted_position": [
+      36.724865294173014,
+      556.7188135439951
+    ],
+    "matched_schematic": "Witcher Lynx Jacket Upgrade schematic 4",
+    "game_pin_id": 31,
+    "correction_metres": 6.98,
+    "status": "Matched by school/tier/item; game source used"
+  },
+  {
+    "map_world": "toussaint",
+    "map_title": "Witchergear: Feline trousers and boots",
+    "source_coord": [
+      116.781,
+      71.5
+    ],
+    "converted_position": [
+      -262.13732387602477,
+      654.7909171747515
+    ],
+    "matched_schematic": "Witcher Lynx Pants Upgrade schematic 5",
+    "game_pin_id": 29,
+    "correction_metres": 5.5,
+    "status": "Matched by school/tier/item; game source used"
+  },
+  {
+    "map_world": "toussaint",
+    "map_title": "Witchergear: Feline steel sword, silver sword and gauntlets",
+    "source_coord": [
+      107.422,
+      77
+    ],
+    "converted_position": [
+      -90.58815801343371,
+      362.45622924428426
+    ],
+    "matched_schematic": "Lynx School steel sword Upgrade schematic 4",
+    "game_pin_id": 30,
+    "correction_metres": 61.32,
+    "status": "Matched by school/tier/item; game source used"
+  },
+  {
+    "map_world": "toussaint",
+    "map_title": "Witchergear: Wolven steel sword, silver sword, gauntlets, armor, trousers and boots",
+    "source_coord": [
+      49.781,
+      101
+    ],
+    "converted_position": [
+      657.8401128516052,
+      -1439.2889034464235
+    ],
+    "matched_schematic": "Wolf School steel sword Upgrade schematic 4",
+    "game_pin_id": 37,
+    "correction_metres": 18.81,
+    "status": "Matched by school/tier/item; game source used"
+  },
+  {
+    "map_world": "toussaint",
+    "map_title": "Witchergear: Manticore gauntlets",
+    "source_coord": [
+      91.547,
+      106.172
+    ],
+    "converted_position": [
+      819.6098751560089,
+      -130.81860063206886
+    ],
+    "matched_schematic": "Witcher Red Wolf Gloves schematic 1",
+    "game_pin_id": 23,
+    "correction_metres": 14.18,
+    "status": "Matched by school/tier/item; game source used"
+  }
+]

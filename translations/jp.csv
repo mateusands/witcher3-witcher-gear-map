@@ -1,0 +1,42 @@
+# Machine-assisted translation draft; linguistic and in-game review pending.
+option_wgm_show_pins;装備マーカーを表示
+option_wgm_hide_obtained;入手済みの設計図を非表示
+option_wgm_notify;設計図を習得したときに通知
+option_wgm_debug;デバッグ情報
+option_wgm_school;流派
+option_wgm_tier;段階
+preset_value_wgm_all;すべて
+wgm_label;ウィッチャー装備
+wgm_obtained;設計図を習得済み。
+wgm_not_obtained;設計図は未習得。
+wgm_notify;設計図を習得：{item}
+wgm_debug_message;ウィッチャー装備 {version}：{world} に {count} か所。
+wgm_missing_map;マップアイコンのバンドルが見つかりません。
+preset_value_wgm_school_1;猫
+preset_value_wgm_school_2;グリフィン
+preset_value_wgm_school_3;熊
+preset_value_wgm_school_4;狼
+preset_value_wgm_school_5;蛇
+preset_value_wgm_school_6;マンティコア
+preset_value_wgm_tier_1;基本
+preset_value_wgm_tier_2;上質
+preset_value_wgm_tier_3;高級
+preset_value_wgm_tier_4;最高級
+preset_value_wgm_tier_5;伝説級
+preset_value_wgm_tier_6;無情なる心
+wgm_hint_search_the_marked_container_for_the_diagrams;マーカーの示す容器で設計図を探してください。
+wgm_hint_defeat_kiyan_in_the_underground_laboratory_and_search_his_remains;地下研究所でキヤンを倒し、遺体を調べてください。
+wgm_hint_buy_the_diagrams_from_countess_mignole_at_the_auction_quest_access_required_this_opportunity_can_be_missed;競売でミニョール伯爵夫人から設計図を購入してください。クエスト中のみ利用でき、機会を逃すことがあります。
+wgm_hint_read_the_prayers_in_the_cave_to_learn_the_armor_diagram;洞窟の祈りを読んで鎧の設計図を習得してください。
+wgm_marker_title;{school}流派 · {tier} {piece}
+wgm_piece_1;鋼の剣
+wgm_piece_2;銀の剣
+wgm_piece_3;石弓
+wgm_piece_4;鎧
+wgm_piece_5;小手
+wgm_piece_6;ズボン
+wgm_piece_7;ブーツ
+option_wgm_icon_style;アイコンのスタイル
+preset_value_wgm_plain;色なし
+preset_value_wgm_colour_circle;流派の色と円
+preset_value_wgm_colour;流派の色のみ

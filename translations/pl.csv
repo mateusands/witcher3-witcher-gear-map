@@ -1,0 +1,42 @@
+# Machine-assisted translation draft; linguistic and in-game review pending.
+option_wgm_show_pins;Pokaż znaczniki rynsztunku
+option_wgm_hide_obtained;Ukryj zdobyte schematy
+option_wgm_notify;Powiadom o poznaniu schematu
+option_wgm_debug;Informacje diagnostyczne
+option_wgm_school;Szkoła
+option_wgm_tier;Poziom
+preset_value_wgm_all;Wszystkie
+wgm_label;Wiedźmiński rynsztunek
+wgm_obtained;Schemat poznany.
+wgm_not_obtained;Schemat nie został jeszcze poznany.
+wgm_notify;Poznano schemat: {item}
+wgm_debug_message;Wiedźmiński rynsztunek {version}: {count} miejsc w {world}.
+wgm_missing_map;Nie znaleziono pakietu ikon mapy.
+preset_value_wgm_school_1;Kot
+preset_value_wgm_school_2;Gryf
+preset_value_wgm_school_3;Niedźwiedź
+preset_value_wgm_school_4;Wilk
+preset_value_wgm_school_5;Żmija
+preset_value_wgm_school_6;Mantikora
+preset_value_wgm_tier_1;Podstawowy
+preset_value_wgm_tier_2;Ulepszony
+preset_value_wgm_tier_3;Wyśmienity
+preset_value_wgm_tier_4;Mistrzowski
+preset_value_wgm_tier_5;Arcymistrzowski
+preset_value_wgm_tier_6;Serca z Kamienia
+wgm_hint_search_the_marked_container_for_the_diagrams;Poszukaj schematów w oznaczonym pojemniku.
+wgm_hint_defeat_kiyan_in_the_underground_laboratory_and_search_his_remains;Pokonaj Kiyana w podziemnym laboratorium i przeszukaj jego szczątki.
+wgm_hint_buy_the_diagrams_from_countess_mignole_at_the_auction_quest_access_required_this_opportunity_can_be_missed;Kup schematy od hrabiny Mignole na aukcji. Dostęp wymaga zadania; tę okazję można przegapić.
+wgm_hint_read_the_prayers_in_the_cave_to_learn_the_armor_diagram;Przeczytaj modlitwy w jaskini, aby poznać schemat zbroi.
+wgm_marker_title;Szkoła {school} · {piece} ({tier})
+wgm_piece_1;Miecz stalowy
+wgm_piece_2;Miecz srebrny
+wgm_piece_3;Kusza
+wgm_piece_4;Zbroja
+wgm_piece_5;Rękawice
+wgm_piece_6;Spodnie
+wgm_piece_7;Buty
+option_wgm_icon_style;Styl ikony
+preset_value_wgm_plain;Bez koloru
+preset_value_wgm_colour_circle;Kolor szkoły z okręgiem
+preset_value_wgm_colour;Kolor szkoły bez okręgu

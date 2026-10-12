@@ -1,0 +1,42 @@
+# Machine-assisted translation draft; linguistic and in-game review pending.
+option_wgm_show_pins;Felszerelésjelölők megjelenítése
+option_wgm_hide_obtained;Megszerezett tervrajzok elrejtése
+option_wgm_notify;Értesítés tervrajz megtanulásakor
+option_wgm_debug;Hibakeresési információk
+option_wgm_school;Iskola
+option_wgm_tier;Szint
+preset_value_wgm_all;Összes
+wgm_label;Vajákfelszerelés
+wgm_obtained;A tervrajzot megtanultad.
+wgm_not_obtained;A tervrajzot még nem tanultad meg.
+wgm_notify;Megtanult tervrajz: {item}
+wgm_debug_message;Vajákfelszerelés {version}: {count} helyszín itt: {world}.
+wgm_missing_map;A térképikonok csomagja nem található.
+preset_value_wgm_school_1;Macska
+preset_value_wgm_school_2;Griff
+preset_value_wgm_school_3;Medve
+preset_value_wgm_school_4;Farkas
+preset_value_wgm_school_5;Vipera
+preset_value_wgm_school_6;Mantikór
+preset_value_wgm_tier_1;Alap
+preset_value_wgm_tier_2;Fejlesztett
+preset_value_wgm_tier_3;Kiváló
+preset_value_wgm_tier_4;Mestermű
+preset_value_wgm_tier_5;Nagymesteri
+preset_value_wgm_tier_6;Kőszívek
+wgm_hint_search_the_marked_container_for_the_diagrams;Keresd a tervrajzokat a megjelölt tárolóban.
+wgm_hint_defeat_kiyan_in_the_underground_laboratory_and_search_his_remains;Győzd le Kiyant a föld alatti laboratóriumban, és kutasd át a maradványait.
+wgm_hint_buy_the_diagrams_from_countess_mignole_at_the_auction_quest_access_required_this_opportunity_can_be_missed;Vásárold meg a tervrajzokat Mignole grófnőtől az árverésen. A hozzáférés küldetéshez kötött; ez az alkalom elszalasztható.
+wgm_hint_read_the_prayers_in_the_cave_to_learn_the_armor_diagram;Olvasd el az imákat a barlangban a páncél tervrajzának megtanulásához.
+wgm_marker_title;{school} iskola · {piece} ({tier})
+wgm_piece_1;Acélkard
+wgm_piece_2;Ezüstkard
+wgm_piece_3;Számszeríj
+wgm_piece_4;Páncél
+wgm_piece_5;Kesztyű
+wgm_piece_6;Nadrág
+wgm_piece_7;Csizma
+option_wgm_icon_style;Ikon stílusa
+preset_value_wgm_plain;Szín nélkül
+preset_value_wgm_colour_circle;Iskolaszín körrel
+preset_value_wgm_colour;Iskolaszín kör nélkül

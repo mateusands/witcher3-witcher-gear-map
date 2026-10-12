@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<UserConfig>
+	<Group id="wgm_Settings" displayName="Mods.wgm_map">
+		<VisibleVars>
+			<Var id="wgm_ShowPins" displayName="wgm_show_pins" displayType="TOGGLE" />
+			<Var id="wgm_HideObtained" displayName="wgm_hide_obtained" displayType="TOGGLE" />
+			<Var id="wgm_IconStyle" displayName="wgm_icon_style" displayType="OPTIONS">
+				<OptionsArray>
+					<Option id="0" displayName="wgm_plain">
+						<Entry varId="wgm_IconStyle" value="0" />
+					</Option>
+					<Option id="1" displayName="wgm_colour_circle">
+						<Entry varId="wgm_IconStyle" value="1" />
+					</Option>
+					<Option id="2" displayName="wgm_colour">
+						<Entry varId="wgm_IconStyle" value="2" />
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var id="wgm_Notify" displayName="wgm_notify" displayType="TOGGLE" />
+			<Var id="wgm_Debug" displayName="wgm_debug" displayType="TOGGLE" />
+			<Var id="wgm_School" displayName="wgm_school" displayType="OPTIONS">
+				<OptionsArray>
+					<Option id="0" displayName="wgm_all">
+						<Entry varId="wgm_School" value="0" />
+					</Option>
+					<Option id="1" displayName="wgm_school_1">
+						<Entry varId="wgm_School" value="1" />
+					</Option>
+					<Option id="2" displayName="wgm_school_2">
+						<Entry varId="wgm_School" value="2" />
+					</Option>
+					<Option id="3" displayName="wgm_school_3">
+						<Entry varId="wgm_School" value="3" />
+					</Option>
+					<Option id="4" displayName="wgm_school_4">
+						<Entry varId="wgm_School" value="4" />
+					</Option>
+					<Option id="5" displayName="wgm_school_5">
+						<Entry varId="wgm_School" value="5" />
+					</Option>
+					<Option id="6" displayName="wgm_school_6">
+						<Entry varId="wgm_School" value="6" />
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var id="wgm_Tier" displayName="wgm_tier" displayType="OPTIONS">
+				<OptionsArray>
+					<Option id="0" displayName="wgm_all">
+						<Entry varId="wgm_Tier" value="0" />
+					</Option>
+					<Option id="1" displayName="wgm_tier_1">
+						<Entry varId="wgm_Tier" value="1" />
+					</Option>
+					<Option id="2" displayName="wgm_tier_2">
+						<Entry varId="wgm_Tier" value="2" />
+					</Option>
+					<Option id="3" displayName="wgm_tier_3">
+						<Entry varId="wgm_Tier" value="3" />
+					</Option>
+					<Option id="4" displayName="wgm_tier_4">
+						<Entry varId="wgm_Tier" value="4" />
+					</Option>
+					<Option id="5" displayName="wgm_tier_5">
+						<Entry varId="wgm_Tier" value="5" />
+					</Option>
+					<Option id="6" displayName="wgm_tier_6">
+						<Entry varId="wgm_Tier" value="6" />
+					</Option>
+				</OptionsArray>
+			</Var>
+		</VisibleVars>
+	</Group>
+</UserConfig>

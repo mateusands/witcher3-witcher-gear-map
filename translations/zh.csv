@@ -1,0 +1,42 @@
+# Machine-assisted translation draft; linguistic and in-game review pending.
+option_wgm_show_pins;顯示裝備標記
+option_wgm_hide_obtained;隱藏已取得的藍圖
+option_wgm_notify;學會藍圖時通知
+option_wgm_debug;除錯資訊
+option_wgm_school;學派
+option_wgm_tier;等級
+preset_value_wgm_all;全部
+wgm_label;狩魔獵人裝備
+wgm_obtained;已學會藍圖。
+wgm_not_obtained;尚未學會藍圖。
+wgm_notify;已學會藍圖：{item}
+wgm_debug_message;狩魔獵人裝備 {version}：{world} 有 {count} 處地點。
+wgm_missing_map;找不到地圖圖示資源包。
+preset_value_wgm_school_1;貓
+preset_value_wgm_school_2;獅鷲
+preset_value_wgm_school_3;熊
+preset_value_wgm_school_4;狼
+preset_value_wgm_school_5;毒蛇
+preset_value_wgm_school_6;飛獅
+preset_value_wgm_tier_1;基礎
+preset_value_wgm_tier_2;強化
+preset_value_wgm_tier_3;高等
+preset_value_wgm_tier_4;極品
+preset_value_wgm_tier_5;宗師
+preset_value_wgm_tier_6;石之心
+wgm_hint_search_the_marked_container_for_the_diagrams;在標記的容器中尋找藍圖。
+wgm_hint_defeat_kiyan_in_the_underground_laboratory_and_search_his_remains;在地下實驗室擊敗凱亞恩並搜索他的遺體。
+wgm_hint_buy_the_diagrams_from_countess_mignole_at_the_auction_quest_access_required_this_opportunity_can_be_missed;在拍賣會上向米諾蕾伯爵夫人購買藍圖。需要任務許可，可能錯過這次機會。
+wgm_hint_read_the_prayers_in_the_cave_to_learn_the_armor_diagram;閱讀洞穴中的祈禱文以學會護甲藍圖。
+wgm_marker_title;{school}學派 · {tier}{piece}
+wgm_piece_1;鋼劍
+wgm_piece_2;銀劍
+wgm_piece_3;弩
+wgm_piece_4;護甲
+wgm_piece_5;手套
+wgm_piece_6;褲子
+wgm_piece_7;靴子
+option_wgm_icon_style;圖示樣式
+preset_value_wgm_plain;無顏色
+preset_value_wgm_colour_circle;學派顏色加圓環
+preset_value_wgm_colour;學派顏色無圓環

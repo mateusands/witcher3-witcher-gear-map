@@ -1,0 +1,42 @@
+# Machine-assisted translation draft; linguistic and in-game review pending.
+option_wgm_show_pins;Zobrazit značky vybavení
+option_wgm_hide_obtained;Skrýt získané nákresy
+option_wgm_notify;Upozornit na naučení nákresu
+option_wgm_debug;Diagnostické informace
+option_wgm_school;Škola
+option_wgm_tier;Úroveň
+preset_value_wgm_all;Vše
+wgm_label;Zaklínačské vybavení
+wgm_obtained;Nákres je naučený.
+wgm_not_obtained;Nákres ještě není naučený.
+wgm_notify;Naučený nákres: {item}
+wgm_debug_message;Zaklínačské vybavení {version}: {count} míst v {world}.
+wgm_missing_map;Balíček ikon mapy nebyl nalezen.
+preset_value_wgm_school_1;Kočka
+preset_value_wgm_school_2;Gryf
+preset_value_wgm_school_3;Medvěd
+preset_value_wgm_school_4;Vlk
+preset_value_wgm_school_5;Zmije
+preset_value_wgm_school_6;Mantikora
+preset_value_wgm_tier_1;Základní
+preset_value_wgm_tier_2;Vylepšené
+preset_value_wgm_tier_3;Vyšší
+preset_value_wgm_tier_4;Mistrovské
+preset_value_wgm_tier_5;Velmistrovské
+preset_value_wgm_tier_6;Srdce z kamene
+wgm_hint_search_the_marked_container_for_the_diagrams;Hledej nákresy v označené nádobě.
+wgm_hint_defeat_kiyan_in_the_underground_laboratory_and_search_his_remains;Poraz Kiyana v podzemní laboratoři a prohledej jeho ostatky.
+wgm_hint_buy_the_diagrams_from_countess_mignole_at_the_auction_quest_access_required_this_opportunity_can_be_missed;Kup nákresy od hraběnky Mignole na aukci. Přístup vyžaduje úkol; tuto příležitost lze zmeškat.
+wgm_hint_read_the_prayers_in_the_cave_to_learn_the_armor_diagram;Přečti modlitby v jeskyni a nauč se nákres zbroje.
+wgm_marker_title;Škola {school} · {piece} ({tier})
+wgm_piece_1;Ocelový meč
+wgm_piece_2;Stříbrný meč
+wgm_piece_3;Kuše
+wgm_piece_4;Zbroj
+wgm_piece_5;Rukavice
+wgm_piece_6;Kalhoty
+wgm_piece_7;Boty
+option_wgm_icon_style;Styl ikony
+preset_value_wgm_plain;Bez barvy
+preset_value_wgm_colour_circle;Barva školy s kruhem
+preset_value_wgm_colour;Barva školy bez kruhu

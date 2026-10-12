@@ -1,0 +1,42 @@
+# Machine-assisted translation draft; linguistic and in-game review pending.
+option_wgm_show_pins;Show gear markers
+option_wgm_hide_obtained;Hide obtained diagrams
+option_wgm_notify;Notify when a diagram is learned
+option_wgm_debug;Debug info
+option_wgm_school;School
+option_wgm_tier;Tier
+preset_value_wgm_all;All
+wgm_label;Witcher Gear
+wgm_obtained;Diagram learned.
+wgm_not_obtained;Diagram not learned yet.
+wgm_notify;Diagram learned: {item}
+wgm_debug_message;Witcher Gear {version}: {count} locations on {world}.
+wgm_missing_map;Map icon bundle not found.
+preset_value_wgm_school_1;Cat
+preset_value_wgm_school_2;Griffin
+preset_value_wgm_school_3;Bear
+preset_value_wgm_school_4;Wolf
+preset_value_wgm_school_5;Viper
+preset_value_wgm_school_6;Manticore
+preset_value_wgm_tier_1;Basic
+preset_value_wgm_tier_2;Enhanced
+preset_value_wgm_tier_3;Superior
+preset_value_wgm_tier_4;Mastercrafted
+preset_value_wgm_tier_5;Grandmaster
+preset_value_wgm_tier_6;Hearts of Stone
+wgm_hint_search_the_marked_container_for_the_diagrams;Search the marked container for the diagrams.
+wgm_hint_defeat_kiyan_in_the_underground_laboratory_and_search_his_remains;Defeat Kiyan in the underground laboratory and search his remains.
+wgm_hint_buy_the_diagrams_from_countess_mignole_at_the_auction_quest_access_required_this_opportunity_can_be_missed;Buy the diagrams from Countess Mignole at the auction. Quest access required; this opportunity can be missed.
+wgm_hint_read_the_prayers_in_the_cave_to_learn_the_armor_diagram;Read the prayers in the cave to learn the armor diagram.
+wgm_marker_title;{school} School · {tier} {piece}
+wgm_piece_1;Steel Sword
+wgm_piece_2;Silver Sword
+wgm_piece_3;Crossbow
+wgm_piece_4;Armor
+wgm_piece_5;Gauntlets
+wgm_piece_6;Trousers
+wgm_piece_7;Boots
+option_wgm_icon_style;Icon style
+preset_value_wgm_plain;No colour
+preset_value_wgm_colour_circle;School colour with circle
+preset_value_wgm_colour;School colour without circle

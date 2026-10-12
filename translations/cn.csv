@@ -1,0 +1,42 @@
+# Machine-assisted translation draft; linguistic and in-game review pending.
+option_wgm_show_pins;显示装备标记
+option_wgm_hide_obtained;隐藏已获得的图纸
+option_wgm_notify;学会图纸时通知
+option_wgm_debug;调试信息
+option_wgm_school;学派
+option_wgm_tier;等级
+preset_value_wgm_all;全部
+wgm_label;猎魔人装备
+wgm_obtained;已学会图纸。
+wgm_not_obtained;尚未学会图纸。
+wgm_notify;已学会图纸：{item}
+wgm_debug_message;猎魔人装备 {version}：{world} 有 {count} 处地点。
+wgm_missing_map;找不到地图图标资源包。
+preset_value_wgm_school_1;猫
+preset_value_wgm_school_2;狮鹫
+preset_value_wgm_school_3;熊
+preset_value_wgm_school_4;狼
+preset_value_wgm_school_5;毒蛇
+preset_value_wgm_school_6;飞狮
+preset_value_wgm_tier_1;基础
+preset_value_wgm_tier_2;强化
+preset_value_wgm_tier_3;高等
+preset_value_wgm_tier_4;极品
+preset_value_wgm_tier_5;师匠
+preset_value_wgm_tier_6;石之心
+wgm_hint_search_the_marked_container_for_the_diagrams;在标记的容器中寻找图纸。
+wgm_hint_defeat_kiyan_in_the_underground_laboratory_and_search_his_remains;在地下实验室击败凯亚恩并搜索他的遗体。
+wgm_hint_buy_the_diagrams_from_countess_mignole_at_the_auction_quest_access_required_this_opportunity_can_be_missed;在拍卖会上向米诺蕾伯爵夫人购买图纸。需要任务许可，可能错过这次机会。
+wgm_hint_read_the_prayers_in_the_cave_to_learn_the_armor_diagram;阅读洞穴中的祈祷文以学会护甲图纸。
+wgm_marker_title;{school}学派 · {tier}{piece}
+wgm_piece_1;钢剑
+wgm_piece_2;银剑
+wgm_piece_3;弩
+wgm_piece_4;护甲
+wgm_piece_5;手套
+wgm_piece_6;裤子
+wgm_piece_7;靴子
+option_wgm_icon_style;图标样式
+preset_value_wgm_plain;无颜色
+preset_value_wgm_colour_circle;学派颜色加圆环
+preset_value_wgm_colour;学派颜色无圆环

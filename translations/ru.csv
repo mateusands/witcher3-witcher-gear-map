@@ -1,0 +1,42 @@
+# Machine-assisted translation draft; linguistic and in-game review pending.
+option_wgm_show_pins;Показывать метки снаряжения
+option_wgm_hide_obtained;Скрывать полученные чертежи
+option_wgm_notify;Уведомлять об изучении чертежа
+option_wgm_debug;Отладочная информация
+option_wgm_school;Школа
+option_wgm_tier;Уровень
+preset_value_wgm_all;Все
+wgm_label;Ведьмачье снаряжение
+wgm_obtained;Чертёж изучен.
+wgm_not_obtained;Чертёж ещё не изучен.
+wgm_notify;Изучен чертёж: {item}
+wgm_debug_message;Ведьмачье снаряжение {version}: {count} мест в {world}.
+wgm_missing_map;Пакет значков карты не найден.
+preset_value_wgm_school_1;Кот
+preset_value_wgm_school_2;Грифон
+preset_value_wgm_school_3;Медведь
+preset_value_wgm_school_4;Волк
+preset_value_wgm_school_5;Змея
+preset_value_wgm_school_6;Мантикора
+preset_value_wgm_tier_1;Обычный
+preset_value_wgm_tier_2;Улучшенный
+preset_value_wgm_tier_3;Отличный
+preset_value_wgm_tier_4;Мастерский
+preset_value_wgm_tier_5;Гроссмейстерский
+preset_value_wgm_tier_6;Каменные сердца
+wgm_hint_search_the_marked_container_for_the_diagrams;Ищите чертежи в отмеченном контейнере.
+wgm_hint_defeat_kiyan_in_the_underground_laboratory_and_search_his_remains;Победите Кийяна в подземной лаборатории и обыщите его останки.
+wgm_hint_buy_the_diagrams_from_countess_mignole_at_the_auction_quest_access_required_this_opportunity_can_be_missed;Купите чертежи у графини Миньоль на аукционе. Доступ зависит от задания; эту возможность можно упустить.
+wgm_hint_read_the_prayers_in_the_cave_to_learn_the_armor_diagram;Прочитайте молитвы в пещере, чтобы изучить чертёж доспеха.
+wgm_marker_title;Школа {school} · {piece} ({tier})
+wgm_piece_1;Стальной меч
+wgm_piece_2;Серебряный меч
+wgm_piece_3;Арбалет
+wgm_piece_4;Доспех
+wgm_piece_5;Перчатки
+wgm_piece_6;Штаны
+wgm_piece_7;Сапоги
+option_wgm_icon_style;Вид значка
+preset_value_wgm_plain;Без цвета
+preset_value_wgm_colour_circle;Цвет школы с кругом
+preset_value_wgm_colour;Цвет школы без круга

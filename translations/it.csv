@@ -1,0 +1,42 @@
+# Machine-assisted translation draft; linguistic and in-game review pending.
+option_wgm_show_pins;Mostra indicatori dell’equipaggiamento
+option_wgm_hide_obtained;Nascondi schemi ottenuti
+option_wgm_notify;Notifica quando viene appreso uno schema
+option_wgm_debug;Informazioni diagnostiche
+option_wgm_school;Scuola
+option_wgm_tier;Livello
+preset_value_wgm_all;Tutti
+wgm_label;Equipaggiamento da witcher
+wgm_obtained;Schema appreso.
+wgm_not_obtained;Schema non ancora appreso.
+wgm_notify;Schema appreso: {item}
+wgm_debug_message;Equipaggiamento da witcher {version}: {count} luoghi in {world}.
+wgm_missing_map;Pacchetto di icone della mappa non trovato.
+preset_value_wgm_school_1;Gatto
+preset_value_wgm_school_2;Grifone
+preset_value_wgm_school_3;Orso
+preset_value_wgm_school_4;Lupo
+preset_value_wgm_school_5;Vipera
+preset_value_wgm_school_6;Manticora
+preset_value_wgm_tier_1;Base
+preset_value_wgm_tier_2;Migliorato
+preset_value_wgm_tier_3;Superiore
+preset_value_wgm_tier_4;Perfetto
+preset_value_wgm_tier_5;Gran maestro
+preset_value_wgm_tier_6;Hearts of Stone
+wgm_hint_search_the_marked_container_for_the_diagrams;Cerca gli schemi nel contenitore indicato.
+wgm_hint_defeat_kiyan_in_the_underground_laboratory_and_search_his_remains;Sconfiggi Kiyan nel laboratorio sotterraneo e perquisisci i suoi resti.
+wgm_hint_buy_the_diagrams_from_countess_mignole_at_the_auction_quest_access_required_this_opportunity_can_be_missed;Compra gli schemi dalla contessa Mignole all’asta. L’accesso richiede una missione; questa occasione può essere persa.
+wgm_hint_read_the_prayers_in_the_cave_to_learn_the_armor_diagram;Leggi le preghiere nella grotta per apprendere lo schema dell’armatura.
+wgm_marker_title;Scuola {school} · {piece} ({tier})
+wgm_piece_1;Spada d’acciaio
+wgm_piece_2;Spada d’argento
+wgm_piece_3;Balestra
+wgm_piece_4;Armatura
+wgm_piece_5;Guanti
+wgm_piece_6;Pantaloni
+wgm_piece_7;Stivali
+option_wgm_icon_style;Stile dell’icona
+preset_value_wgm_plain;Senza colore
+preset_value_wgm_colour_circle;Colore della scuola con cerchio
+preset_value_wgm_colour;Colore della scuola senza cerchio

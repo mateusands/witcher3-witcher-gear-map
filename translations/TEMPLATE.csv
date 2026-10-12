@@ -1,0 +1,91 @@
+# Witcher Upgrade Gear Map 1.0.0 - texts to translate. Copy to <lang>.csv (br, de, fr, ru, ...)
+# and translate the part after the semicolon. Keep all placeholders ({item}, {version}, {count}, {world}, {school}, {tier}, {piece}). Missing lines stay in English.
+panel_wgm_map;Witcher Upgrade Gear Map 1.0.0
+map_category_wgm_gear;Witcher Gear
+option_wgm_show_pins;Show gear markers
+option_wgm_hide_obtained;Hide obtained diagrams
+option_wgm_notify;Notify when a diagram is learned
+option_wgm_debug;Debug info
+option_wgm_school;School
+option_wgm_tier;Tier
+preset_value_wgm_all;All
+wgm_label;Witcher Gear
+wgm_obtained;Diagram learned.
+wgm_not_obtained;Diagram not learned yet.
+wgm_notify;Diagram learned: {item}
+wgm_debug_message;Witcher Gear {version}: {count} locations on {world}.
+wgm_missing_map;Map icon bundle not found.
+preset_value_wgm_school_1;Cat
+preset_value_wgm_school_2;Griffin
+preset_value_wgm_school_3;Bear
+preset_value_wgm_school_4;Wolf
+preset_value_wgm_school_5;Viper
+preset_value_wgm_school_6;Manticore
+preset_value_wgm_tier_1;Basic
+preset_value_wgm_tier_2;Enhanced
+preset_value_wgm_tier_3;Superior
+preset_value_wgm_tier_4;Mastercrafted
+preset_value_wgm_tier_5;Grandmaster
+preset_value_wgm_tier_6;Hearts of Stone
+wgm_hint_search_the_marked_container_for_the_diagrams;Search the marked container for the diagrams.
+wgm_hint_defeat_kiyan_in_the_underground_laboratory_and_search_his_remains;Defeat Kiyan in the underground laboratory and search his remains.
+wgm_hint_buy_the_diagrams_from_countess_mignole_at_the_auction_quest_access_required_this_opportunity_can_be_missed;Buy the diagrams from Countess Mignole at the auction. Quest access required; this opportunity can be missed.
+wgm_hint_read_the_prayers_in_the_cave_to_learn_the_armor_diagram;Read the prayers in the cave to learn the armor diagram.
+wgm_marker_title;{school} School · {tier} {piece}
+wgm_piece_1;Steel Sword
+wgm_piece_2;Silver Sword
+wgm_piece_3;Crossbow
+wgm_piece_4;Armor
+wgm_piece_5;Gauntlets
+wgm_piece_6;Trousers
+wgm_piece_7;Boots
+option_wgm_icon_style;Icon style
+preset_value_wgm_plain;No colour
+preset_value_wgm_colour_circle;School colour with circle
+preset_value_wgm_colour;School colour without circle
+wgm_loc_10;Underwater: dive near the shore to reach the chest.
+wgm_loc_11;Inside the cave; follow it down to the chest.
+wgm_loc_12;Inside the cave; follow it down to the chest.
+wgm_loc_13;The chest is at the bottom of the well.
+wgm_loc_14;In the hold of the sunken ship; dive to reach it.
+wgm_loc_15;In a chest right next to the hidden treasure spot.
+wgm_loc_16;On the upper floor of the fortress; find a way up.
+wgm_loc_17;Down in the catacombs, in a room filled with poison gas.
+wgm_loc_21;Climb the wall of the old watchtower.
+wgm_loc_22;In the Borsodi vault, during the Hearts of Stone heist.
+wgm_loc_23;At the bottom of the lake; dive for the chest.
+wgm_loc_24;Behind a loose brick in the old prison.
+wgm_loc_25;In the chest at the far end of the cave.
+wgm_loc_26;Inside the temple vault.
+wgm_loc_27;In a chest guarded by monsters.
+wgm_loc_28;Inside the cave.
+wgm_loc_29;In a chest on top of the broken bridge.
+wgm_loc_30;Inside the cave.
+wgm_loc_31;Inside the house, hidden behind a painting on the wall.
+wgm_loc_33;Hidden prison: pass the illusory wall, use the crystal on the door, then cast Aard on the portal.
+wgm_loc_34;Hidden prison: pass the illusory wall, use the crystal on the door, then cast Aard on the portal.
+wgm_loc_35;Hidden prison: pass the illusory wall, use the crystal on the door, then cast Aard on the portal.
+wgm_loc_36;Inside the cave, past the portal; its key lies just outside the entrance.
+wgm_loc_37;Inside the cave, past the portal; its key lies just outside the entrance.
+wgm_loc_38;Inside the cave, past the portal; its key lies just outside the entrance.
+wgm_loc_39;Inside the castle, down the ladder.
+wgm_loc_40;Inside the ruins, behind a wall you can break with Aard.
+wgm_loc_43;Inside a mine shaft at the quarry.
+wgm_loc_44;On the upper floor of the abandoned manor.
+wgm_loc_47;Upstairs in a building, reached by the ladder beside the Oxenfurt Gate.
+wgm_loc_48;Break the stalagmites; the chest is on a rock shelf on the right side of the cave.
+wgm_loc_49;At the end of the cave, in a chest on a wooden platform.
+wgm_loc_50;Inside the cave, behind a low stone wall on the left.
+wgm_loc_54;Near the troll at the fort.
+wgm_loc_57;Inside the Dragonslayer's Grotto.
+wgm_loc_59;Next to the monster nest.
+wgm_loc_62;Guarded by a monster near the ruined tower.
+wgm_loc_63;At the end of an unmarked cave, behind a stone pillar.
+wgm_loc_66;First part of the Viper gear: in the bandit camp. Read the note found here.
+wgm_loc_67;Second part of the Viper gear: underneath the chapel.
+wgm_loc_68;Enter the monster den from the shore and turn left; all four armor diagrams are in the chest.
+wgm_loc_69;Enter the monster den and go right; the wall collapses and the chest is behind it.
+wgm_loc_70;Enter the monster den and go left; on the way up the stairs the chest is in an alcove on the left.
+wgm_loc_76;In the cave system below.
+wgm_loc_79;In a chest in the basement of the ruin.
+wgm_loc_85;In an unmarked cave in the mountainside.

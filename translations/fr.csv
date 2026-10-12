@@ -1,0 +1,42 @@
+# Machine-assisted translation draft; linguistic and in-game review pending.
+option_wgm_show_pins;Afficher les marqueurs d’équipement
+option_wgm_hide_obtained;Masquer les schémas obtenus
+option_wgm_notify;Notifier lorsqu’un schéma est appris
+option_wgm_debug;Informations de diagnostic
+option_wgm_school;École
+option_wgm_tier;Niveau
+preset_value_wgm_all;Tous
+wgm_label;Équipement de sorceleur
+wgm_obtained;Schéma appris.
+wgm_not_obtained;Schéma pas encore appris.
+wgm_notify;Schéma appris : {item}
+wgm_debug_message;Équipement de sorceleur {version} : {count} lieux dans {world}.
+wgm_missing_map;Pack d’icônes de carte introuvable.
+preset_value_wgm_school_1;Chat
+preset_value_wgm_school_2;Griffon
+preset_value_wgm_school_3;Ours
+preset_value_wgm_school_4;Loup
+preset_value_wgm_school_5;Vipère
+preset_value_wgm_school_6;Manticore
+preset_value_wgm_tier_1;De base
+preset_value_wgm_tier_2;Amélioré
+preset_value_wgm_tier_3;Supérieur
+preset_value_wgm_tier_4;Maître
+preset_value_wgm_tier_5;Grand maître
+preset_value_wgm_tier_6;Hearts of Stone
+wgm_hint_search_the_marked_container_for_the_diagrams;Cherchez les schémas dans le contenant indiqué.
+wgm_hint_defeat_kiyan_in_the_underground_laboratory_and_search_his_remains;Vainquez Kiyan dans le laboratoire souterrain et fouillez sa dépouille.
+wgm_hint_buy_the_diagrams_from_countess_mignole_at_the_auction_quest_access_required_this_opportunity_can_be_missed;Achetez les schémas à la comtesse Mignole aux enchères. L’accès dépend d’une quête ; cette occasion peut être manquée.
+wgm_hint_read_the_prayers_in_the_cave_to_learn_the_armor_diagram;Lisez les prières dans la grotte pour apprendre le schéma de l’armure.
+wgm_marker_title;École du {school} · {piece} ({tier})
+wgm_piece_1;Épée en acier
+wgm_piece_2;Épée en argent
+wgm_piece_3;Arbalète
+wgm_piece_4;Armure
+wgm_piece_5;Gantelets
+wgm_piece_6;Pantalon
+wgm_piece_7;Bottes
+option_wgm_icon_style;Style de l’icône
+preset_value_wgm_plain;Sans couleur
+preset_value_wgm_colour_circle;Couleur de l’école avec cercle
+preset_value_wgm_colour;Couleur de l’école sans cercle

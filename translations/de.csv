@@ -1,0 +1,42 @@
+# Machine-assisted translation draft; linguistic and in-game review pending.
+option_wgm_show_pins;Ausrüstungsmarkierungen anzeigen
+option_wgm_hide_obtained;Erhaltene Baupläne ausblenden
+option_wgm_notify;Beim Erlernen eines Bauplans benachrichtigen
+option_wgm_debug;Diagnoseinformationen
+option_wgm_school;Schule
+option_wgm_tier;Stufe
+preset_value_wgm_all;Alle
+wgm_label;Hexerausrüstung
+wgm_obtained;Bauplan erlernt.
+wgm_not_obtained;Bauplan noch nicht erlernt.
+wgm_notify;Bauplan erlernt: {item}
+wgm_debug_message;Hexerausrüstung {version}: {count} Fundorte in {world}.
+wgm_missing_map;Kartensymbolpaket nicht gefunden.
+preset_value_wgm_school_1;Katze
+preset_value_wgm_school_2;Greif
+preset_value_wgm_school_3;Bär
+preset_value_wgm_school_4;Wolf
+preset_value_wgm_school_5;Viper
+preset_value_wgm_school_6;Mantikor
+preset_value_wgm_tier_1;Einfach
+preset_value_wgm_tier_2;Verbessert
+preset_value_wgm_tier_3;Überlegen
+preset_value_wgm_tier_4;Meisterlich
+preset_value_wgm_tier_5;Großmeister
+preset_value_wgm_tier_6;Hearts of Stone
+wgm_hint_search_the_marked_container_for_the_diagrams;Suche im markierten Behälter nach den Bauplänen.
+wgm_hint_defeat_kiyan_in_the_underground_laboratory_and_search_his_remains;Besiege Kiyan im unterirdischen Labor und durchsuche seine Überreste.
+wgm_hint_buy_the_diagrams_from_countess_mignole_at_the_auction_quest_access_required_this_opportunity_can_be_missed;Kaufe die Baupläne bei Gräfin Mignole auf der Auktion. Der Zugang erfordert eine Quest; diese Gelegenheit kann verpasst werden.
+wgm_hint_read_the_prayers_in_the_cave_to_learn_the_armor_diagram;Lies die Gebete in der Höhle, um den Rüstungsbauplan zu erlernen.
+wgm_marker_title;{school}-Schule · {piece} ({tier})
+wgm_piece_1;Stahlschwert
+wgm_piece_2;Silberschwert
+wgm_piece_3;Armbrust
+wgm_piece_4;Rüstung
+wgm_piece_5;Handschuhe
+wgm_piece_6;Hose
+wgm_piece_7;Stiefel
+option_wgm_icon_style;Symbolstil
+preset_value_wgm_plain;Ohne Farbe
+preset_value_wgm_colour_circle;Schulfarbe mit Kreis
+preset_value_wgm_colour;Schulfarbe ohne Kreis

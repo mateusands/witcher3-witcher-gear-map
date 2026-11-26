@@ -1,6 +1,6 @@
-# Witcher Upgrade Gear Map 1.0.1 - texts to translate. Copy to <lang>.csv (br, de, fr, ru, ...)
+# Witcher Upgrade Gear Map 1.0.4 - texts to translate. Copy to <lang>.csv (br, de, fr, ru, ...)
 # and translate the part after the semicolon. Keep all placeholders ({item}, {version}, {count}, {world}, {school}, {tier}, {piece}). Missing lines stay in English.
-panel_wgm_map;Witcher Upgrade Gear Map 1.0.1
+panel_wgm_map;Witcher Upgrade Gear Map 1.0.4
 map_category_wgm_gear;Witcher Gear
 option_wgm_show_pins;Show gear markers
 option_wgm_hide_obtained;Hide obtained diagrams

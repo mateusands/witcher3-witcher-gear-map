@@ -2,7 +2,7 @@
 // Learned diagram state is read from the vanilla player. No mod facts are written.
 function wgm_Version() : string
 {
-    return "1.0.1";
+    return "1.0.4";
 }
 struct wgm_Item
 {

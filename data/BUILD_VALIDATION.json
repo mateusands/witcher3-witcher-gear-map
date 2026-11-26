@@ -5,16 +5,16 @@
   "texts_per_language": 95,
   "standalone": {
     "types": 26,
-    "frames": 1733,
-    "characters": 1073,
-    "bundle_bytes": 1564704
+    "frames": 1639,
+    "characters": 1050,
+    "bundle_bytes": 1523344
   },
   "combined": {
-    "types": 28,
-    "frames": 1753,
-    "characters": 1079,
-    "bundle_bytes": 1565136
+    "types": 30,
+    "frames": 1679,
+    "characters": 1062,
+    "bundle_bytes": 1524096
   },
-  "game_script_compile": "Compiled and tested in game (patch 5.01, DX12)",
+  "game_script_compile": "Compiled and tested in game (patch 5.02, DX12)",
   "linguistic_review": "Machine-assisted drafts; native review pending"
 }

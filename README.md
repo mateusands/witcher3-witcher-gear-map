@@ -1,6 +1,6 @@
 # Witcher Upgrade Gear Map
 
-A map mod for The Witcher 3 (patch 5.01, Steam/GOG Remastered). It marks every witcher gear
+A map mod for The Witcher 3 (patch 5.02, Steam/GOG Remastered). It marks every witcher gear
 diagram on the world map, tells you where the chest is, and turns grey once Geralt has learned it.
 
 I tested the mod in game myself (DX12, Linux/Proton), together with Gwent Players Map.
@@ -61,8 +61,9 @@ Using **Gwent Players Map** too? Both mods replace the world map, so install the
 ### Gwent Players Map compatibility
 
 The combined file contains one world map with both mods' icons and filters
-(`mods/mod0WitcherGearGwentMap`). Since 1.0.2 it matches Gwent Players Map 1.0.7 (both card
-sizes; cards no longer under "Merchants and craftsmen") and still works with 1.0.6. Keep both mods installed; their scripts and texts stay
+(`mods/mod0WitcherGearGwentMap`). Since 1.0.4 it is built for game patch 5.02 and matches Gwent Players Map 1.0.10 (cards where
+the players stand in the Gwent filter, next to the shop icons elsewhere; both card sizes; cards
+not under "Merchants and craftsmen"). It also works with Gwent Players Map 1.0.8 and 1.0.9. Keep both mods installed; their scripts and texts stay
 separate. The combined folder must load before the other two: its name already sorts first, but
 if your `mods.settings` sets priorities, give it the lowest number. Remove it to go back to
 either standalone map.
@@ -94,6 +95,11 @@ Delete `mods/modWitcherGearMap`, `mods/mod0WitcherGearGwentMap` (if installed),
 
 ## Changelog
 
+- **1.0.4**: world map rebuilt for game patch 5.02 (the patch changed the map again: 32:9
+  support, tooltip fix, two pin types removed), in both the main mod and the combined file. The
+  diagram data did not change. On patch 5.01 use 1.0.2.
+- **1.0.3**: updated Gwent Players Map combined file for Gwent Players Map 1.0.8 (in the Gwent
+  filter the cards sit where the players stand). The main mod is unchanged.
 - **1.0.2**: updated Gwent Players Map combined file for Gwent Players Map 1.0.7 (both card
   sizes, cards no longer under "Merchants and craftsmen"). The main mod is unchanged.
 - **1.0.1**: "Show diagrams: Discovered only / All" option (Discovered only by default: markers
